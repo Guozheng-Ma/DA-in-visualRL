@@ -3,7 +3,7 @@
 ![DA in visual RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c6057fb0b4c6461e2c122c60403aab21479b689e/Image/DA%20in%20visual%20RL.png)
 
 
-## How to Augment the Data in Visual RL? ![detailed](How_to_Augment.md)
+## How to Augment the Data in Visual RL? [detailed](How_to_Augment.md)
 ![How to Augment the Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/eec9c1566047dfc9e35d45d8fb0018c190ba2e9d/Image/How%20To%20Aug%20the%20data.png)
 
 
