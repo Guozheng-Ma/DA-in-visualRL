@@ -36,10 +36,12 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 
 <div id="1" >
 
-## :round_pushpin: How to Augment the Data in Visual RL? [:fast_forward:](How_to_Augment.md)
+## :round_pushpin: How to Augment the Data in Visual RL? [:fast_forward:](How to Augment.md)
   
 
-The aim of data augmentation (DA) is to increase the amount and diversity of the original training data, so that agents can learn more efficient and robust policies. Thus, a primary focus of previous research is to design effective augmentation approaches.  
+The aim of data augmentation (DA) is to increase the amount and diversity of the original training data, so that agents can learn more efficient and robust policies. Thus, a primary focus of previous research is to design effective augmentation approaches.
+
+Depending on the type of data that the DA technique aims to modify, we divide DA in visual RL into **Observation Augmentation**, **Transition Augmentation** and **Trajectory Augmentation**.
 
 ![How to Augment the Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/eec9c1566047dfc9e35d45d8fb0018c190ba2e9d/Image/How%20To%20Aug%20the%20data.png)
 
