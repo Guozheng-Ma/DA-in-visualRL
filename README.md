@@ -43,7 +43,7 @@ The aim of data augmentation (DA) is to increase the amount and diversity of the
 
 Depending on the type of data that the DA technique aims to modify, we divide DA in visual RL into **Observation Augmentation**, **Transition Augmentation** and **Trajectory Augmentation**.
 
-![How to Augment the Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/eec9c1566047dfc9e35d45d8fb0018c190ba2e9d/Image/How%20To%20Aug%20the%20data.png)
+![How to Augment the Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/0da3b5a872e6c93d82afbccd56cd52a0a2db8df3/Image/How%20To%20Aug%20the%20data.png)
 
 <div id="2" >
 
