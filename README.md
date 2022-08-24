@@ -17,9 +17,9 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 > 
 >>**Feel free to skip to the section you're interested in.**
 >>
->>[:round_pushpin: **How to Augment the Data in Visual RL?**](#1)
+>>[:one: **How to Augment the Data in Visual RL?**](#1)
 >>
->>[:triangular_flag_on_post: **How to Leverage the Augmented Data in Visual RL?**](#2)
+>>[:two: **How to Leverage the Augmented Data in Visual RL?**](#2)
 >
 >If this repository is useful to you, please consider citing our paper:
 >```
