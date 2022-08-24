@@ -18,8 +18,11 @@
 | ICML '21 | **[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies |
 | ICML '21 | **[ATC]** Decoupling Representation Learning from Reinforcement Learning |
 | ICML '21 | **[Proto-RL]** Reinforcement Learning with Prototypical Representations |
-|  |  |
-|  |  |
+| ICRA '21 | **[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation |
+| NIPS '21 | **[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation |
+| NIPS '21 | **[UCB-DrAC]** Automatic Data Augmentation for Generalization in Reinforcement Learning |
+| NIPS '21 | **[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning |
+| NIPS '21 | **[EXPAND]** Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation |
 |  |  |
 |  |  |
 |  |  |
