@@ -54,28 +54,28 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
  
 ### Implicit Policy Regularization
 
-> **Representative Studies:** [RAD](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html), [DrQ]().
+> **Representative Studies:** [RAD](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html), [DrQ](https://openreview.net/forum?id=GY6-6sTvGaf), [DrQ-v2](), [SVEA]().
 
 ![Implicit Policy Regularization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Implicit%20Policy%20Regularization.png)
 -----
 
 ### Explicit Policy Regularization with Auxiliary Tasks
 
-> **Representative Studies:** [CURL](http://proceedings.mlr.press/v119/laskin20a.html), [SPR](), [PlayVirtual](), [DRIBO]().
+> **Representative Studies:** [CURL](http://proceedings.mlr.press/v119/laskin20a.html), [SPR](https://openreview.net/forum?id=uCQfPZwRaUu&fbclid=IwAR3FMvlynXXYEMJaJzPki1x1wC9jjA3aBDC_moWxrI91hLaDvtk7nnnIXT8), [PlayVirtual](), [DRIBO]().
 
 ![Explicit Policy Regularization with Auxiliary Tasks](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Explicit%20Policy%20Regularization%20with%20Auxiliary%20Tasks.png)
 ----
   
 ### Task-Specific Representation Decoupled from Policy Optimization
 
-> **Representative Studies:** [SODA](), [SECANT]().
+> **Representative Studies:** [SODA](), [SECANT](https://proceedings.mlr.press/v139/fan21c.html).
 
 ![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
 ----
   
 ### Task-Agnostic Representation using Unsupervised Learning
 
-> **Representative Studies:** [ATC]().
+> **Representative Studies:** [ATC](http://proceedings.mlr.press/v139/stooke21a.html).
 
 ![Task-Agnostic Representation using Unsupervised Learning](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Agnostic%20Representation%20using%20Unsupervised%20Learning.png)
 ----
@@ -93,12 +93,12 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
   
 | 2021 |
 |--------|
-|**[DrQ]** Image Augmentation is All You Need: Regularizing Deep Reinforcement Learning from Pixels **(ICLR 2021)**|
-|**[PAD]** Self-Supervised Policy Adaptation during Deployment **(ICLR 2021)**|
-|**[SPR]** Data-Efficient Reinforcement Learning with Self-Predictive Representations **(ICLR 2021)**|
-|**[MixStyle]** Domain Generalization with MixStyle **(ICLR 2021)**|
-|**[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies **(ICML 2021)** |
-|**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)**|
+|**[DrQ]** Image Augmentation is All You Need: Regularizing Deep Reinforcement Learning from Pixels **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=GY6-6sTvGaf) [*(code)*](https://github.com/denisyarats/drq)|
+|**[PAD]** Self-Supervised Policy Adaptation during Deployment **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=o_V-MjyyGV_) [*(code)*](https://github.com/nicklashansen/policy-adaptation-during-deployment)|
+|**[SPR]** Data-Efficient Reinforcement Learning with Self-Predictive Representations **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=uCQfPZwRaUu&fbclid=IwAR3FMvlynXXYEMJaJzPki1x1wC9jjA3aBDC_moWxrI91hLaDvtk7nnnIXT8) [*(code)*](https://github.com/mila-iqia/spr)|
+|**[MixStyle]** Domain Generalization with MixStyle **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=6xHJ37MVxxp) [*(code)*](https://github.com/KaiyangZhou/mixstyle-release)|
+|**[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies **(ICML 2021)** [*(paper)*](https://proceedings.mlr.press/v139/fan21c.html) [*(code)*](https://github.com/LinxiFan/SECANT)|
+|**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul)|
 |**[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)**|
 |**[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)**|
 |**[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation **(NeurIPS 2021)**|
