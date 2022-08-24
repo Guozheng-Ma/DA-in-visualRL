@@ -10,7 +10,7 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 
 > This repository is based on the paper [**"A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning"**](), authored by Guozheng Ma, [Zhen Wang](https://zhenwang.site/), [Zhecheng Yuan](), [Xueqian Wang](https://scholar.google.com/citations?user=h9dN_ykAAAAJ&hl=zh-CN), [Bo Yuan](https://scholar.google.com/citations?hl=zh-CN&user=FMiooBoAAAAJ) and [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
 > 
-> In
+> In this repository, we 
 > 
 >>[:round_pushpin: **How to Augment the Data in Visual RL?**](#1)
 >>
