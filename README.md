@@ -10,11 +10,12 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 
 > This repository is based on our paper ["A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning"](),
 >>[:round_pushpin: **How to Augment the Data in Visual RL?**](#1)
->
+\\
 >>[:triangular_flag_on_post: **How to Leverage the Augmented Data in Visual RL?**](#2)
+\\
 >>[:page_facing_up: **Related Paper List**](#3)
 
------
+
 
 <div id="1" >
 
