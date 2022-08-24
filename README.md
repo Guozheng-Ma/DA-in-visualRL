@@ -1,13 +1,16 @@
 # Data Augmentation in Visual RL
-[:page_facing_up: **Related Paper List**](#3)
 
+[:round_pushpin: **How to Augment the Data in Visual RL?**](#1) [:triangular_flag_on_post: **How to Leverage the Augmented Data in Visual RL?**](#2) [:page_facing_up: **Related Paper List**](#3)
+-----
 
 ![DA in visual RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c6057fb0b4c6461e2c122c60403aab21479b689e/Image/DA%20in%20visual%20RL.png)
 
+<div id="1" >
 
 ## How to Augment the Data in Visual RL? [:fast_forward:](How_to_Augment.md)
 ![How to Augment the Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/eec9c1566047dfc9e35d45d8fb0018c190ba2e9d/Image/How%20To%20Aug%20the%20data.png)
 
+<div id="2" >
 
 ## How to Leverage the Augmented Data in Visual RL?
 ![How to Leverage the Augmented Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/ad52aed2af3bb78d4929f9ede19c05ae259bcae7/Image/How%20to%20Leverage%20the%20Augmented%20Data.png)
