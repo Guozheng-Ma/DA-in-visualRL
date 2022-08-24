@@ -12,7 +12,8 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 > 
 > In this repository, we conduct a systematic review of the previous work, focusing on how to obtain and leverage the augmented data in visual RL.
 > Also, we present a collection of existing papers on leveraging DA in visual RL scenarios.
-> 
+> The list of related paper will be continuously updated.
+> Welcome to follow this repo! :bookmark:
 > 
 >>[:round_pushpin: **How to Augment the Data in Visual RL?**](#1)
 >>
