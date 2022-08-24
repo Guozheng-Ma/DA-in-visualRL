@@ -7,7 +7,7 @@
 [:page_facing_up: **Related Paper List**](#3)
 
 -----
-<font color=red>**Visual reinforcement learning (RL)**</font> that makes decisions directly from high-dimensional visual inputs has demonstrated significant potential in various domains. However, deploying visual RL techniques to the real world remains challenging due to their low sample efficiency and large generalization gap. To tackle these obstacles, data augmentation (DA) has become a widely used technique in visual RL to acquire sample-efficient and generalizable policies by diversifying the training data.
++**Visual reinforcement learning (RL)**+ that makes decisions directly from high-dimensional visual inputs has demonstrated significant potential in various domains. However, deploying visual RL techniques to the real world remains challenging due to their low sample efficiency and large generalization gap. To tackle these obstacles, data augmentation (DA) has become a widely used technique in visual RL to acquire sample-efficient and generalizable policies by diversifying the training data.
 
 ![DA in visual RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c6057fb0b4c6461e2c122c60403aab21479b689e/Image/DA%20in%20visual%20RL.png)
 
