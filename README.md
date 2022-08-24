@@ -26,10 +26,10 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 >If this repository is useful to you, please consider citing our paper:
 >```
 >@article{,
-> title={},
-> author={},
-> journal={},
->year={2022}
+>&ensp;title={},
+>&ensp;author={},
+>&ensp;journal={},
+>&ensp;year={2022}
 >}
 >```
 
