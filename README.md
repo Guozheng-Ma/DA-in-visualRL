@@ -102,7 +102,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 | IJCAI '22 | **[CCLF]** CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efﬁcient Reinforcement Learning |
 | ICML '22 | **[DRIBO]** DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck|
 |||
-| Neuro computing ‘22 | **[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images |
+| Neurocomputing ‘22 | **[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images |
 | TPAMI ‘22 | **[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning |
 |||
 |  arxiv&nbsp;'21 | **[PAADA]** Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation  |
