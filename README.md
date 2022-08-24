@@ -54,16 +54,20 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
  
 ### Implicit Policy Regularization
 ![Implicit Policy Regularization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Implicit%20Policy%20Regularization.png)
+-----
 
 ### Explicit Policy Regularization with Auxiliary Tasks
 ![Explicit Policy Regularization with Auxiliary Tasks](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Explicit%20Policy%20Regularization%20with%20Auxiliary%20Tasks.png)
-
+----
+  
 ### Task-Specific Representation Decoupled from Policy Optimization
 ![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
-
+----
+  
 ### Task-Agnostic Representation using Unsupervised Learning
 ![Task-Agnostic Representation using Unsupervised Learning](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Agnostic%20Representation%20using%20Unsupervised%20Learning.png)
-
+----
+  
 <div id="3" >
 
 ## :page_facing_up: Related Paper List 
@@ -98,7 +102,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 | IJCAI '22 | **[CCLF]** CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efﬁcient Reinforcement Learning |
 | ICML '22 | **[DRIBO]** DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck|
 |||
-| Neurocomputing ‘22 | **[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images |
+| Neuro computing ‘22 | **[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images |
 | TPAMI ‘22 | **[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning |
 |||
 |  arxiv&nbsp;'21 | **[PAADA]** Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation  |
