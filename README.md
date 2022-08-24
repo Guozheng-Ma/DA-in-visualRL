@@ -101,14 +101,14 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul)|
 |**[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/yarats21a.html) [*(code)*](https://github.com/denisyarats/proto)|
 |**[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9561103) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)|
-|**[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation **(NeurIPS 2021)**|
-|**[UCB-DrAC]** Automatic Data Augmentation for Generalization in Reinforcement Learning **(NeurIPS 2021)**|
-|**[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning **(NeurIPS 2021)**|
-|**[EXPAND]** Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation **(NeurIPS 2021)**|
-|**[CCFDM]** Sample-efficient Reinforcement Learning Representation Learning with Curiosity Contrastive Forward Dynamics Model **(IROS 2021)**|
-|**[UCB-RAD]** Automatic Data Augmentation by Upper Confidence Bounds for Deep Reinforcement Learning **(ICCAS 2021)**|
-|Flexible Data Augmentation in Off-Policy Reinforcement Learning **(ICAISC 2021)**|
-|**[PAADA]** Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation **(arxiv 2021)** |
+|**[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/1e0f65eb20acbfb27ee05ddc000b50ec-Abstract.html) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)|
+|**[UCB-DrAC]** Automatic Data Augmentation for Generalization in Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/2b38c2df6a49b97f706ec9148ce48d86-Abstract.html) [*(code)*](https://github.com/rraileanu/auto-drac)|
+|**[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/2a38a4a9316c49e5a833517c45d31070-Abstract.html) [*(code)*](https://github.com/microsoft/Playvirtual)|
+|**[EXPAND]** Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/b6f8dc086b2d60c5856e4ff517060392-Abstract.html)|
+|**[CCFDM]** Sample-efficient Reinforcement Learning Representation Learning with Curiosity Contrastive Forward Dynamics Model **(IROS 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9636536)|
+|**[UCB-RAD]** Automatic Data Augmentation by Upper Confidence Bounds for Deep Reinforcement Learning **(ICCAS 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9649771)|
+|Flexible Data Augmentation in Off-Policy Reinforcement Learning **(ICAISC 2021)** [*(paper)*](https://link.springer.com/chapter/10.1007/978-3-030-87986-0_20)|
+|**[PAADA]** Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation **(arxiv 2021)** [*(paper)*](https://arxiv.org/abs/2106.15587) |
   
 | 2022 |
 |--------|
