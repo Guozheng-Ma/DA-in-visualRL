@@ -6,11 +6,11 @@
 
 |  Conference  | Paper  |
 |  :----:  | ----  |
-| CoG '20 | Rotation, Translation, and Cropping for Zero-Shot Generalization |
 | ICLR '20 | **[RandFM]** Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning |
 | ICML '20 | **[CURL]** Contrastive Unsupervised Representations for Reinforcement Learning |
 | NIPS '20 | **[RAD]** Reinforcement Learning with Augmented Data |
 | NIPS '20 | **[MixReg]** Improving Generalization in Reinforcement Learning with Mixture Regularization |
+| CoG '20 | Rotation, Translation, and Cropping for Zero-Shot Generalization [*paper*](https://ieeexplore.ieee.org/abstract/document/9231907) |
 | ICLR '21 | **[DrQ]** Image Augmentation is All You Need: Regularizing Deep Reinforcement Learning from Pixels |
 | ICLR '21 | **[PAD]** Self-Supervised Policy Adaptation during Deployment |
 | ICLR '21 | **[SPR]** Data-Efficient Reinforcement Learning with Self-Predictive Representations |
