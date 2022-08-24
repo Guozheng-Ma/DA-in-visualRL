@@ -1,5 +1,5 @@
 # Data Augmentation in Visual RL
-[名称](#3)
+[:page_facing_up: Related Paper List](#3)
 ![DA in visual RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c6057fb0b4c6461e2c122c60403aab21479b689e/Image/DA%20in%20visual%20RL.png)
 
 
@@ -10,8 +10,8 @@
 ## How to Leverage the Augmented Data in Visual RL?
 ![How to Leverage the Augmented Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/ad52aed2af3bb78d4929f9ede19c05ae259bcae7/Image/How%20to%20Leverage%20the%20Augmented%20Data.png)
 
-
-## Related Paper List <div id="3" >
+<div id="3" >
+## Related Paper List 
 
 |  Conference  | Paper  |
 |  :----:  | ----  |
