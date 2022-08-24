@@ -80,7 +80,6 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
  
 ### 2.1 Implicit Policy Regularization
 
-> **Representative Studies:** [RAD](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html), [DrQ](https://openreview.net/forum?id=GY6-6sTvGaf), [DrQ-v2](), [SVEA]().
 
 ![Implicit Policy Regularization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Implicit%20Policy%20Regularization.png)
   
@@ -95,7 +94,6 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 ### 2.2 Explicit Policy Regularization with Auxiliary Tasks
 
-> **Representative Studies:** [CURL](http://proceedings.mlr.press/v119/laskin20a.html), [SPR](https://openreview.net/forum?id=uCQfPZwRaUu&fbclid=IwAR3FMvlynXXYEMJaJzPki1x1wC9jjA3aBDC_moWxrI91hLaDvtk7nnnIXT8), [PlayVirtual](), [DRIBO]().
 
 ![Explicit Policy Regularization with Auxiliary Tasks](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Explicit%20Policy%20Regularization%20with%20Auxiliary%20Tasks.png)
 
@@ -132,7 +130,6 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
   
 ### 2.4 Task-Agnostic Representation using Unsupervised Learning
 
-> **Representative Studies:** [ATC](http://proceedings.mlr.press/v139/stooke21a.html), [Proto-RL](http://proceedings.mlr.press/v139/yarats21a.html).
 
 ![Task-Agnostic Representation using Unsupervised Learning](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Agnostic%20Representation%20using%20Unsupervised%20Learning.png)
   
