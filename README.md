@@ -75,6 +75,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 ## :page_facing_up: Related Paper List 
 
+|:--------|
 |**[RandFM]** Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning **(ICLR 2020)** [*(paper)*](http://proceedings.mlr.press/v119/laskin20a.html)|
 |**[CURL]** Contrastive Unsupervised Representations for Reinforcement Learning **(ICML 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907)|
 |**[RAD]** Reinforcement Learning with Augmented Data **(NeurIPS 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907)|
