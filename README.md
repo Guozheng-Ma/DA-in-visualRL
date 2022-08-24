@@ -25,10 +25,10 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 >
 >If this repository is useful to you, please consider citing our paper:
 >```
->@article{yuan2022don,
->title={Don't Touch What Matters: Task-Aware Lipschitz Data Augmentationfor Visual Reinforcement Learning},
->author={Yuan, Zhecheng and Ma, Guozheng and Mu, Yao and Xia, Bo and Yuan, Bo and Wang, Xueqian and Luo, Ping and Xu, Huazhe},
->journal={arXiv preprint arXiv:2202.09982},
+>@article{,
+> title={},
+> author={},
+> journal={},
 >year={2022}
 >}
 >```
