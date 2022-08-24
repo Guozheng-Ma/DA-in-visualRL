@@ -47,6 +47,11 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 ![How to Augment the Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/0da3b5a872e6c93d82afbccd56cd52a0a2db8df3/Image/How%20To%20Aug%20the%20data.png)
 
+| Related Studies |
+|--------|
+|Rotation, Translation, and Cropping for Zero-Shot Generalization **(CoG 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907) |
+|**[RAD]** Reinforcement Learning with Augmented Data **(NeurIPS 2020)** [*(paper)*](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html) [*(code)*](https://github.com/MishaLaskin/rad)|
+
 <div id="2" >
 
 ## :triangular_flag_on_post: How to Leverage the Augmented Data in Visual RL?
