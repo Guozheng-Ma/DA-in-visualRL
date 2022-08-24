@@ -44,10 +44,11 @@
 |  Priprint   | Paper  |
 |  :----:  | ----  |
 |  arxiv '21 | **[PAADA]** Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation  |
-|  arxiv '22 | Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning  |
+|  arxiv '22 | **[InDA, ExDA]** Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning  |
 |  arxiv '22 | **[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning  |
 |  arxiv '22 | **[VCD]** Accelerating Representation Learning with View-Consistent Dynamics in Data-Efficient Reinforcement Learning  |
-
+|  arxiv '22 | **[VRL3]** VRL3: A Data-Driven Framework for Visual Deep Reinforcement Learning  |
+|  arxiv '22 | Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?  |
 
 
 
