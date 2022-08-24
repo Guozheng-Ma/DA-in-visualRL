@@ -26,3 +26,8 @@
 | IROS '21 | **[CCFDM]** Sample-efficient Reinforcement Learning Representation Learning with Curiosity Contrastive Forward Dynamics Model |
 | ICCAS '21 | **[UCB-RAD]** Automatic Data Augmentation by Upper Confidence Bounds for Deep Reinforcement Learning |
 | ICAISC '21 | Flexible Data Augmentation in Off-Policy Reinforcement Learning |
+| AAAI '22 | **[SIM]** Generalizing Reinforcement Learning through Fusing Self-Supervised Learning into Intrinsic Motivation |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
