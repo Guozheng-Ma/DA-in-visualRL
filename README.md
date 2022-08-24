@@ -1,6 +1,8 @@
 # Data Augmentation in Visual RL
 
-[:round_pushpin: **How to Augment the Data in Visual RL?**](#1) [:triangular_flag_on_post: **How to Leverage the Augmented Data in Visual RL?**](#2) [:page_facing_up: **Related Paper List**](#3)
+[:round_pushpin: **How to Augment the Data in Visual RL?**](#1) 
+[:triangular_flag_on_post: **How to Leverage the Augmented Data in Visual RL?**](#2) 
+[:page_facing_up: **Related Paper List**](#3)
 
 -----
 
