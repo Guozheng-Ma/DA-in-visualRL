@@ -20,8 +20,6 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 >>[:round_pushpin: **How to Augment the Data in Visual RL?**](#1)
 >>
 >>[:triangular_flag_on_post: **How to Leverage the Augmented Data in Visual RL?**](#2)
->>
->>[:page_facing_up: **Related Paper List**](#3)
 >
 >If this repository is useful to you, please consider citing our paper:
 >```
@@ -36,10 +34,12 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 
 <div id="1" >
 
-## :round_pushpin: How to Augment the Data in Visual RL? [:arrow_forward:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/780577cfbdbf3aba1e304ca81774cd5af6de857c/How%20to%20Augment.md)
+## 1 How to Augment the Data in Visual RL? [:arrow_forward:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/780577cfbdbf3aba1e304ca81774cd5af6de857c/How%20to%20Augment.md)
   
 
 The aim of data augmentation (DA) is to increase the amount and diversity of the original training data, so that agents can learn more efficient and robust policies. Thus, a primary focus of previous research is to design effective augmentation approaches.
+  
+### 1.1 Observation Augmentation, Transition Augmentation and Trajectory Augmentation
 
 Depending on the type of data that the DA technique aims to modify, we divide DA in visual RL into **Observation Augmentation**, **Transition Augmentation** and **Trajectory Augmentation**.
   
@@ -58,14 +58,14 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |**[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/2a38a4a9316c49e5a833517c45d31070-Abstract.html) [*(code)*](https://github.com/microsoft/Playvirtual)|
 |**[CLOP]** Local Feature Swapping for Generalization in Reinforcement Learning **(ICLR 2022)** [*(paper)*](https://openreview.net/forum?id=Sq0-tgDyHe4)|
 
-### Automatic Data Augmentation
+### 1.2 Automatic Data Augmentation
 
 | Related Studies |
 |--------|
 |**[UCB-DrAC]** Automatic Data Augmentation for Generalization in Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/2b38c2df6a49b97f706ec9148ce48d86-Abstract.html) [*(code)*](https://github.com/rraileanu/auto-drac)|
 |**[UCB-RAD]** Automatic Data Augmentation by Upper Confidence Bounds for Deep Reinforcement Learning **(ICCAS 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9649771)|
 
-### Context-aware/Semantic-level Data Augmentation
+### 1.3 Context-aware/Semantic-level Data Augmentation
 
 | Related Studies |
 |--------|
@@ -75,10 +75,10 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 <div id="2" >
 
-## :triangular_flag_on_post: How to Leverage the Augmented Data in Visual RL?
+## 2 How to Leverage the Augmented Data in Visual RL?
 
  
-### Implicit Policy Regularization
+### 2.1 Implicit Policy Regularization
 
 > **Representative Studies:** [RAD](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html), [DrQ](https://openreview.net/forum?id=GY6-6sTvGaf), [DrQ-v2](), [SVEA]().
 
@@ -93,7 +93,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 -----
 
-### Explicit Policy Regularization with Auxiliary Tasks
+### 2.2 Explicit Policy Regularization with Auxiliary Tasks
 
 > **Representative Studies:** [CURL](http://proceedings.mlr.press/v119/laskin20a.html), [SPR](https://openreview.net/forum?id=uCQfPZwRaUu&fbclid=IwAR3FMvlynXXYEMJaJzPki1x1wC9jjA3aBDC_moWxrI91hLaDvtk7nnnIXT8), [PlayVirtual](), [DRIBO]().
 
@@ -119,7 +119,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
  
 ----
   
-### Task-Specific Representation Decoupled from Policy Optimization
+### 2.3 Task-Specific Representation Decoupled from Policy Optimization
 
 ![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
 
@@ -130,7 +130,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 ----
   
-### Task-Agnostic Representation using Unsupervised Learning
+### 2.4 Task-Agnostic Representation using Unsupervised Learning
 
 > **Representative Studies:** [ATC](http://proceedings.mlr.press/v139/stooke21a.html), [Proto-RL](http://proceedings.mlr.press/v139/yarats21a.html).
 
@@ -143,10 +143,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 
 ----
-  
-<div id="3" >
 
-## :page_facing_up: Related Paper List 
 
 
 
