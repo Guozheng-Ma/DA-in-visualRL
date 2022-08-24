@@ -119,7 +119,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
   
 ### 2.3 Task-Specific Representation Decoupled from Policy Optimization
 
-![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
+![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/5e051b65601c6a6665e534cd6a9ea566ed5671d8/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
 
 | Related Studies |
 |--------|
