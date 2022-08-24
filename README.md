@@ -6,5 +6,15 @@
 
 |  Publications   | Paper  |
 |  ----  | ----  |
+| CoG '20 | Rotation, Translation, and Cropping for Zero-Shot Generalization |
+| ICLR '20 | **[RandFM]** Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 |  |  |
