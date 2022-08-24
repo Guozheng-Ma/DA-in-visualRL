@@ -41,6 +41,12 @@
 | TPAMI ‘22 | **[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning |
 
 
+|  Priprint   | Paper  |
+|  :----:  | ----  |
+|  arxiv '21 | **[PAADA]** Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation  |
+|  arxiv '22 | Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning  |
+|  arxiv '22 | **[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning  |
+|  arxiv '22 | **[VCD]** Accelerating Representation Learning with View-Consistent Dynamics in Data-Efficient Reinforcement Learning  |
 
 
 
