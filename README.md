@@ -68,14 +68,14 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
   
 ### Task-Specific Representation Decoupled from Policy Optimization
 
-> **Representative Studies:** [SODA](), [SECANT](https://proceedings.mlr.press/v139/fan21c.html).
+> **Representative Studies:** [SODA](https://ieeexplore.ieee.org/abstract/document/9561103), [SECANT](https://proceedings.mlr.press/v139/fan21c.html).
 
 ![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
 ----
   
 ### Task-Agnostic Representation using Unsupervised Learning
 
-> **Representative Studies:** [ATC](http://proceedings.mlr.press/v139/stooke21a.html).
+> **Representative Studies:** [ATC](http://proceedings.mlr.press/v139/stooke21a.html), [Proto-RL](http://proceedings.mlr.press/v139/yarats21a.html).
 
 ![Task-Agnostic Representation using Unsupervised Learning](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Agnostic%20Representation%20using%20Unsupervised%20Learning.png)
 ----
@@ -99,8 +99,8 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |**[MixStyle]** Domain Generalization with MixStyle **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=6xHJ37MVxxp) [*(code)*](https://github.com/KaiyangZhou/mixstyle-release)|
 |**[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies **(ICML 2021)** [*(paper)*](https://proceedings.mlr.press/v139/fan21c.html) [*(code)*](https://github.com/LinxiFan/SECANT)|
 |**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul)|
-|**[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)**|
-|**[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)**|
+|**[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/yarats21a.html) [*(code)*](https://github.com/denisyarats/proto)|
+|**[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9561103) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)|
 |**[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation **(NeurIPS 2021)**|
 |**[UCB-DrAC]** Automatic Data Augmentation for Generalization in Reinforcement Learning **(NeurIPS 2021)**|
 |**[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning **(NeurIPS 2021)**|
