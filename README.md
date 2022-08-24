@@ -118,14 +118,13 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |**[CRESP]** Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions **(KDD 2022)** [*(paper)*](https://arxiv.org/abs/2205.10218) [*(code)*](https://github.com/MIRALab-USTC/RL-CRESP)|
 |**[TLDA]** Don’t Touch What Matters: Task-Aware Lipschitz Data Augmentation for Visual Reinforcement Learning **(IJCAI 2022)** [*(paper)*](https://arxiv.org/abs/2202.09982)|
 |**[CCLF]** CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efficient Reinforcement Learning **(IJCAI 2022)** [*(paper)*](https://arxiv.org/abs/2205.00943)|
-|**[DRIBO]** DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck **(ICML 2022)**|
-|**[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images **(Neurocomputing 2022)**|
-|**[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning **(TPAMI 2022)**|
-|**[InDA, ExDA]** Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning **(arxiv 2022)** |
-|*[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning **(arxiv 2022)** |
-|**[VCD]** Accelerating Representation Learning with View-Consistent Dynamics in Data-Efficient Reinforcement Learning **(arxiv 2022)** |
-|**[VRL3]** VRL3: A Data-Driven Framework for Visual Deep Reinforcement Learning **(arxiv 2022)** |
-|Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels? **(arxiv 2022)** |
+|**[DRIBO]** DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck **(ICML 2022)** [*(paper)*](https://proceedings.mlr.press/v162/fan22b.html) [*(code)*](https://github.com/BU-DEPEND-Lab/DRIBO)|
+|**[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images **(Neurocomputing 2022)** [*(paper)*](https://www.sciencedirect.com/science/article/abs/pii/S0925231221019500)|
+|**[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning **(TPAMI 2022)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9779589)|
+|**[InDA, ExDA]** Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2102.08581)|
+|**[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2201.12096)|
+|**[VCD]** Accelerating Representation Learning with View-Consistent Dynamics in Data-Efficient Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2201.07016)|
+|Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels? **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2206.05266)|
 
 
 
