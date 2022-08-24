@@ -4,12 +4,11 @@
 
 
 ## 1 How to Augment the Data in Visual RL?
-
-
+![How to Augment the Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/eec9c1566047dfc9e35d45d8fb0018c190ba2e9d/Image/How%20To%20Aug%20the%20data.png)
 
 
 ## 2 How to Leverage the Augmented Data in Visual RL?
-
+![How to Leverage the Augmented Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/eec9c1566047dfc9e35d45d8fb0018c190ba2e9d/Image/How%20To%20Aug%20the%20data.png)
 
 
 ## 3 Related Paper List
