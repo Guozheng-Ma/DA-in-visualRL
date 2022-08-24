@@ -27,7 +27,7 @@
 | ICCAS '21 | **[UCB-RAD]** Automatic Data Augmentation by Upper Confidence Bounds for Deep Reinforcement Learning |
 | ICAISC '21 | Flexible Data Augmentation in Off-Policy Reinforcement Learning |
 | AAAI '22 | **[SIM]** Generalizing Reinforcement Learning through Fusing Self-Supervised Learning into Intrinsic Motivation |
-|  |  |
-|  |  |
-|  |  |
+| ICLR '22 | **[DrQ-v2]** Mastering Visual Continuous Control- Improved Data-Augmented Reinforcement Learning |
+| ICLR '22 | **[CLOP]** Local Feature Swapping for Generalization in Reinforcement Learning |
+| SIGKDD '22 | **[CRESP]** Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions |
 |  |  |
