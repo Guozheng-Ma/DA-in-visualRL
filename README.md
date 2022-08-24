@@ -29,5 +29,17 @@
 | AAAI '22 | **[SIM]** Generalizing Reinforcement Learning through Fusing Self-Supervised Learning into Intrinsic Motivation |
 | ICLR '22 | **[DrQ-v2]** Mastering Visual Continuous Control- Improved Data-Augmented Reinforcement Learning |
 | ICLR '22 | **[CLOP]** Local Feature Swapping for Generalization in Reinforcement Learning |
-| SIGKDD '22 | **[CRESP]** Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions |
-|  |  |
+| KDD '22 | **[CRESP]** Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions |
+| IJCAI '22 | **[TLDA]** Don’t Touch What Matters: Task-Aware Lipschitz Data Augmentation for Visual Reinforcement Learning |
+| IJCAI '22 | **[CCLF]** CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efﬁcient Reinforcement Learning |
+| IJCAI '22 | **[CRESP]** |
+
+
+
+
+
+
+
+
+
+
