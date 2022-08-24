@@ -75,7 +75,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 ## :page_facing_up: Related Paper List 
 | 2020 |
-|:--------|
+|--------|
 |**[RandFM]** Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning **(ICLR 2020)** [*(paper)*](http://proceedings.mlr.press/v119/laskin20a.html)|
 |**[CURL]** Contrastive Unsupervised Representations for Reinforcement Learning **(ICML 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907)|
 |**[RAD]** Reinforcement Learning with Augmented Data **(NeurIPS 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907)|
@@ -83,7 +83,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |Rotation, Translation, and Cropping for Zero-Shot Generalization **(CoG 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907) |
   
 | 2021 |
-|:--------|
+|--------|
 |**[DrQ]** Image Augmentation is All You Need: Regularizing Deep Reinforcement Learning from Pixels **(ICLR 2021)**|
 |**[PAD]** Self-Supervised Policy Adaptation during Deployment **(ICLR 2021)**|
 |**[SPR]** Data-Efficient Reinforcement Learning with Self-Predictive Representations **(ICLR 2021)**|
@@ -102,7 +102,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |**[PAADA]** Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation **(arxiv 2021)** |
   
 | 2022 |
-|:--------|
+|--------|
 |**[SIM]** Generalizing Reinforcement Learning through Fusing Self-Supervised Learning into Intrinsic Motivation **(AAAI 2022)**|
 |**[DrQ-v2]** Mastering Visual Continuous Control- Improved Data-Augmented Reinforcement Learning **(ICLR 2022)**|
 |**[CLOP]** Local Feature Swapping for Generalization in Reinforcement Learning **(ICLR 2022)**|
