@@ -10,7 +10,9 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 
 > This repository is based on the paper [**"A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning"**](), authored by Guozheng Ma, [Zhen Wang](https://zhenwang.site/), [Zhecheng Yuan](), [Xueqian Wang](https://scholar.google.com/citations?user=h9dN_ykAAAAJ&hl=zh-CN), [Bo Yuan](https://scholar.google.com/citations?hl=zh-CN&user=FMiooBoAAAAJ) and [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
 > 
-> In this repository, we 
+> In this repository, we conduct a systematic review of the previous work, focusing on how to obtain and leverage the augmented data in visual RL.
+> Also, we present a collection of existing papers on leveraging DA in visual RL scenarios.
+> 
 > 
 >>[:round_pushpin: **How to Augment the Data in Visual RL?**](#1)
 >>
@@ -67,7 +69,7 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 
 |  Journal   | Paper  |
 |  :----:  | ----  |
-| Neurocomputing ‘22 | **[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images |
+| Neurocomputing&nbsp;‘22 | **[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images |
 | TPAMI ‘22 | **[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning |
 
 
