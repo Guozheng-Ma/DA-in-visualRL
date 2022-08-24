@@ -1,7 +1,7 @@
 # Data Augmentation in Visual RL
-<br />
+
 [:round_pushpin: **How to Augment the Data in Visual RL?**](#1) [:triangular_flag_on_post: **How to Leverage the Augmented Data in Visual RL?**](#2) [:page_facing_up: **Related Paper List**](#3)
-<br />
+
 -----
 
 ![DA in visual RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c6057fb0b4c6461e2c122c60403aab21479b689e/Image/DA%20in%20visual%20RL.png)
