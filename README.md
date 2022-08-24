@@ -11,6 +11,7 @@
 ![How to Leverage the Augmented Data in Visual RL?](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/ad52aed2af3bb78d4929f9ede19c05ae259bcae7/Image/How%20to%20Leverage%20the%20Augmented%20Data.png)
 
 <div id="3" >
+
 ## Related Paper List 
 
 |  Conference  | Paper  |
