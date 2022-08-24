@@ -23,6 +23,6 @@
 | NIPS '21 | **[UCB-DrAC]** Automatic Data Augmentation for Generalization in Reinforcement Learning |
 | NIPS '21 | **[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning |
 | NIPS '21 | **[EXPAND]** Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation |
-|  |  |
+| IROS '21 | **[CCFDM]** Sample-efficient Reinforcement Learning Representation Learning with Curiosity Contrastive Forward Dynamics Model |
 |  |  |
 |  |  |
