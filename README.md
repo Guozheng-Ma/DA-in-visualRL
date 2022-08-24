@@ -1,2 +1,2 @@
-# Data Augmentation (DA) in Visual Reinforcement Learning (RL)
+# Data Augmentation in Visual RL
 
