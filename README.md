@@ -112,12 +112,12 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
   
 | 2022 |
 |--------|
-|**[SIM]** Generalizing Reinforcement Learning through Fusing Self-Supervised Learning into Intrinsic Motivation **(AAAI 2022)**|
-|**[DrQ-v2]** Mastering Visual Continuous Control- Improved Data-Augmented Reinforcement Learning **(ICLR 2022)**|
-|**[CLOP]** Local Feature Swapping for Generalization in Reinforcement Learning **(ICLR 2022)**|
-|**[CRESP]** Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions **(KDD 2022)**|
-|**[TLDA]** Don’t Touch What Matters: Task-Aware Lipschitz Data Augmentation for Visual Reinforcement Learning **(IJCAI 2022)**|
-|**[CCLF]** CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efﬁcient Reinforcement Learning **(IJCAI 2022)**|
+|**[SIM]** Generalizing Reinforcement Learning through Fusing Self-Supervised Learning into Intrinsic Motivation **(AAAI 2022)** [*(paper)*](https://www.aaai.org/AAAI22Papers/AAAI-7240.WuK.pdf)|
+|**[DrQ-v2]** Mastering Visual Continuous Control- Improved Data-Augmented Reinforcement Learning **(ICLR 2022)** [*(paper)*](https://openreview.net/forum?id=_SJ-_yyes8) [*(code)*](https://github.com/facebookresearch/drqv2)|
+|**[CLOP]** Local Feature Swapping for Generalization in Reinforcement Learning **(ICLR 2022)** [*(paper)*](https://openreview.net/forum?id=Sq0-tgDyHe4)|
+|**[CRESP]** Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions **(KDD 2022)** [*(paper)*](https://arxiv.org/abs/2205.10218) [*(code)*](https://github.com/MIRALab-USTC/RL-CRESP)|
+|**[TLDA]** Don’t Touch What Matters: Task-Aware Lipschitz Data Augmentation for Visual Reinforcement Learning **(IJCAI 2022)** [*(paper)*](https://arxiv.org/abs/2202.09982)|
+|**[CCLF]** CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efficient Reinforcement Learning **(IJCAI 2022)** [*(paper)*](https://arxiv.org/abs/2205.00943)|
 |**[DRIBO]** DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck **(ICML 2022)**|
 |**[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images **(Neurocomputing 2022)**|
 |**[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning **(TPAMI 2022)**|
