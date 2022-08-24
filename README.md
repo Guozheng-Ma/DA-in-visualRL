@@ -4,7 +4,7 @@
 
 ## Paper list
 
-|  Publications   | Paper  |
+|  Conference  | Paper  |
 |  :----:  | ----  |
 | CoG '20 | Rotation, Translation, and Cropping for Zero-Shot Generalization |
 | ICLR '20 | **[RandFM]** Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning |
@@ -32,11 +32,13 @@
 | KDD '22 | **[CRESP]** Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions |
 | IJCAI '22 | **[TLDA]** Don’t Touch What Matters: Task-Aware Lipschitz Data Augmentation for Visual Reinforcement Learning |
 | IJCAI '22 | **[CCLF]** CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efﬁcient Reinforcement Learning |
-| IJCAI '22 | **[CRESP]** |
 
 
 
-
+|  Journal   | Paper  |
+|  :----:  | ----  |
+| Neurocomputing ‘22 | **[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images |
+| TPAMI ‘22 | **[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning |
 
 
 
