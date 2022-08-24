@@ -54,14 +54,14 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
  
 ### Implicit Policy Regularization
 
-> **Representative Studies:** [RAD](), [DrQ]().
+> **Representative Studies:** [RAD](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html), [DrQ]().
 
 ![Implicit Policy Regularization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Implicit%20Policy%20Regularization.png)
 -----
 
 ### Explicit Policy Regularization with Auxiliary Tasks
 
-> **Representative Studies:** [CURL](), [SPR](), [PlayVirtual](), [DRIBO]().
+> **Representative Studies:** [CURL](http://proceedings.mlr.press/v119/laskin20a.html), [SPR](), [PlayVirtual](), [DRIBO]().
 
 ![Explicit Policy Regularization with Auxiliary Tasks](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Explicit%20Policy%20Regularization%20with%20Auxiliary%20Tasks.png)
 ----
@@ -85,10 +85,10 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 ## :page_facing_up: Related Paper List 
 | 2020 |
 |--------|
-|**[RandFM]** Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning **(ICLR 2020)** [*(paper)*](http://proceedings.mlr.press/v119/laskin20a.html)|
-|**[CURL]** Contrastive Unsupervised Representations for Reinforcement Learning **(ICML 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907)|
-|**[RAD]** Reinforcement Learning with Augmented Data **(NeurIPS 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907)|
-|**[MixReg]** Improving Generalization in Reinforcement Learning with Mixture Regularization **(NeurIPS 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907)|
+|**[RandFM]** Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning **(ICLR 2020)** [*(paper)*](https://arxiv.org/abs/1910.05396)|
+|**[CURL]** Contrastive Unsupervised Representations for Reinforcement Learning **(ICML 2020)** [*(paper)*](http://proceedings.mlr.press/v119/laskin20a.html)|
+|**[RAD]** Reinforcement Learning with Augmented Data **(NeurIPS 2020)** [*(paper)*](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html)|
+|**[MixReg]** Improving Generalization in Reinforcement Learning with Mixture Regularization **(NeurIPS 2020)** [*(paper)*](https://proceedings.neurips.cc/paper/2020/hash/5a751d6a0b6ef05cfe51b86e5d1458e6-Abstract.html)|
 |Rotation, Translation, and Cropping for Zero-Shot Generalization **(CoG 2020)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9231907) |
   
 | 2021 |
