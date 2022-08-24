@@ -36,7 +36,7 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 
 <div id="1" >
 
-## :round_pushpin: How to Augment the Data in Visual RL? [:fast_forward:](How to Augment.md)
+## :round_pushpin: How to Augment the Data in Visual RL? [:fast_forward:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/780577cfbdbf3aba1e304ca81774cd5af6de857c/How%20to%20Augment.md)
   
 
 The aim of data augmentation (DA) is to increase the amount and diversity of the original training data, so that agents can learn more efficient and robust policies. Thus, a primary focus of previous research is to design effective augmentation approaches.
