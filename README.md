@@ -95,6 +95,12 @@ The application scenarios where data augmentation plays a vital role can be divi
 - In Case 3, the environment is explored without any task-specific rewards, and DA can be exploited to learn the task-agnostic representation using unsupervised learning.
  
 ### 2.1 Implicit Policy Regularization
+  
+> The definition of implicit and explicit regularization in [:bookmark_tabs:WIKIPEDIA](https://en.wikipedia.org/wiki/Regularization_(mathematics))
+>
+>> **Explicit regularization** is regularization whenever one explicitly adds a term to the optimization problem. These terms could be priors, penalties, or constraints. Explicit regularization is commonly employed with ill-posed optimization problems. The regularization term, or penalty, imposes a cost on the optimization function to make the optimal solution unique.
+>
+>> **Implicit regularization** is all other forms of regularization. This includes, for example, early stopping, using a robust loss function, and discarding outliers. Implicit regularization is essentially ubiquitous in modern machine learning approaches, including stochastic gradient descent for training deep neural networks, and ensemble methods.
 
 
 ![Implicit Policy Regularization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Implicit%20Policy%20Regularization.png)
