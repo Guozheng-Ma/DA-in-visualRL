@@ -150,6 +150,10 @@ Multiple heads then propagate errors back to the shared network layers that form
 
 ![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/5e051b65601c6a6665e534cd6a9ea566ed5671d8/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
 
+- The fragility of RL poses a *dilemma*:
+-- aggressive augmentations are necessary for achieving good generalization in the visual domain, 
+-- while injecting heavy data augmentations into the optimization of RL objective may cause a deterioration in both the sample efficiency and the training stability.
+
 | Related Studies |
 |--------|
 |**[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9561103) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
