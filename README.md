@@ -59,6 +59,9 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 > Detailed introduction and analysis of the representative studies can be viewed by clicking its :bookmark:.
 
 ### 1.2 Automatic Data Augmentation
+  
+Automatic data augmentation is receiving growing attentions due to the demand of task-specific augmentation.
+Generally, different tasks benefit from different augmentations, and selecting the most appropriate one requires expert knowledge. Therefore, it is imperative to design a method that can automatically identify the most effective augmentation method.
 
 | Related Studies |
 |--------|
