@@ -168,7 +168,11 @@ Hence, an intuitive idea is to decouple the training data flow:
 ----
   
 ### 2.4 Task-Agnostic Representation using Unsupervised Learning
-
+  
+The visual representations of standard end-to-end RL methods heavily rely on the task-specific reward, making them ineffective for other tasks.
+To overcome this limitation, the environment can be first explored in a **task-agnostic fashion** to learn its visual representations **without any task-specific rewards**, and specific downstream tasks can be subsequently solved efficiently.
+  
+**DA is exploited as a  key part of unsupervised presentation learning.**
 
 ![Task-Agnostic Representation using Unsupervised Learning](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Agnostic%20Representation%20using%20Unsupervised%20Learning.png)
   
