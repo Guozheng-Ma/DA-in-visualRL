@@ -85,10 +85,10 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
   
 | Related Studies |
 |--------|
-|**[RAD]** Reinforcement Learning with Augmented Data **(NeurIPS 2020)** [*(paper)*](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html) [*(code)*](https://github.com/MishaLaskin/rad)|
-|**[DrQ]** Image Augmentation is All You Need: Regularizing Deep Reinforcement Learning from Pixels **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=GY6-6sTvGaf) [*(code)*](https://github.com/denisyarats/drq)|
+|**[RAD]** Reinforcement Learning with Augmented Data **(NeurIPS 2020)** [*(paper)*](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html) [*(code)*](https://github.com/MishaLaskin/rad) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
+|**[DrQ]** Image Augmentation is All You Need: Regularizing Deep Reinforcement Learning from Pixels **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=GY6-6sTvGaf) [*(code)*](https://github.com/denisyarats/drq) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
 |**[DrQ-v2]** Mastering Visual Continuous Control- Improved Data-Augmented Reinforcement Learning **(ICLR 2022)** [*(paper)*](https://openreview.net/forum?id=_SJ-_yyes8) [*(code)*](https://github.com/facebookresearch/drqv2)|
-|**[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/1e0f65eb20acbfb27ee05ddc000b50ec-Abstract.html) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)|
+|**[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/1e0f65eb20acbfb27ee05ddc000b50ec-Abstract.html) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
 
 -----
 
@@ -99,15 +99,15 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 | Related Studies |
 |--------|
-|**[CURL]** Contrastive Unsupervised Representations for Reinforcement Learning **(ICML 2020)** [*(paper)*](http://proceedings.mlr.press/v119/laskin20a.html) [*(code)*](https://github.com/MishaLaskin/curl)|
-|**[SPR]** Data-Efficient Reinforcement Learning with Self-Predictive Representations **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=uCQfPZwRaUu&fbclid=IwAR3FMvlynXXYEMJaJzPki1x1wC9jjA3aBDC_moWxrI91hLaDvtk7nnnIXT8) [*(code)*](https://github.com/mila-iqia/spr)|
+|**[CURL]** Contrastive Unsupervised Representations for Reinforcement Learning **(ICML 2020)** [*(paper)*](http://proceedings.mlr.press/v119/laskin20a.html) [*(code)*](https://github.com/MishaLaskin/curl) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
+|**[SPR]** Data-Efficient Reinforcement Learning with Self-Predictive Representations **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=uCQfPZwRaUu&fbclid=IwAR3FMvlynXXYEMJaJzPki1x1wC9jjA3aBDC_moWxrI91hLaDvtk7nnnIXT8) [*(code)*](https://github.com/mila-iqia/spr) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
 |**[UCB-DrAC]** Automatic Data Augmentation for Generalization in Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/2b38c2df6a49b97f706ec9148ce48d86-Abstract.html) [*(code)*](https://github.com/rraileanu/auto-drac)|
 |**[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/2a38a4a9316c49e5a833517c45d31070-Abstract.html) [*(code)*](https://github.com/microsoft/Playvirtual)|
 |**[CCFDM]** Sample-efficient Reinforcement Learning Representation Learning with Curiosity Contrastive Forward Dynamics Model **(IROS 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9636536)|
 |**[SIM]** Generalizing Reinforcement Learning through Fusing Self-Supervised Learning into Intrinsic Motivation **(AAAI 2022)** [*(paper)*](https://www.aaai.org/AAAI22Papers/AAAI-7240.WuK.pdf)|
 |**[CRESP]** Learning Task-relevant Representations for Generalization via Characteristic Functions of Reward Sequence Distributions **(KDD 2022)** [*(paper)*](https://arxiv.org/abs/2205.10218) [*(code)*](https://github.com/MIRALab-USTC/RL-CRESP)|
 |**[CCLF]** CCLF: A Contrastive-Curiosity-Driven Learning Framework for Sample-Efficient Reinforcement Learning **(IJCAI 2022)** [*(paper)*](https://arxiv.org/abs/2205.00943)|
-|**[DRIBO]** DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck **(ICML 2022)** [*(paper)*](https://proceedings.mlr.press/v162/fan22b.html) [*(code)*](https://github.com/BU-DEPEND-Lab/DRIBO)|
+|**[DRIBO]** DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck **(ICML 2022)** [*(paper)*](https://proceedings.mlr.press/v162/fan22b.html) [*(code)*](https://github.com/BU-DEPEND-Lab/DRIBO) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
 |**[CoDy]** Integrating Contrastive Learning with Dynamic Models for Reinforcement Learning from Images **(Neurocomputing 2022)** [*(paper)*](https://www.sciencedirect.com/science/article/abs/pii/S0925231221019500)|
 |**[M-CURL]** Masked Contrastive Representation Learning for Reinforcement Learning **(TPAMI 2022)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9779589)|
 |**[InDA, ExDA]** Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2102.08581)|
@@ -123,8 +123,8 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 | Related Studies |
 |--------|
-|**[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9561103) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)|
-|**[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies **(ICML 2021)** [*(paper)*](https://proceedings.mlr.press/v139/fan21c.html) [*(code)*](https://github.com/LinxiFan/SECANT)|
+|**[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9561103) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
+|**[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies **(ICML 2021)** [*(paper)*](https://proceedings.mlr.press/v139/fan21c.html) [*(code)*](https://github.com/LinxiFan/SECANT) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
 
 ----
   
@@ -135,7 +135,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
   
 | Related Studies |
 |--------|
-|**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul)|
+|**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c3b92a1cb07b82ea329e1e15ad0ded7e54ffb2c7/How%20to%20Leverage.md)|
 |**[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/yarats21a.html) [*(code)*](https://github.com/denisyarats/proto)|
 
 
