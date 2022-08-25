@@ -102,7 +102,8 @@ The application scenarios where data augmentation plays a vital role can be divi
 >
 >> **Implicit regularization** is all other forms of regularization. This includes, for example, early stopping, using a robust loss function, and discarding outliers.
 
-In visual RL scenarios, we consider implicit regularization with DA as 
+The initial and naive practice of DA is to expand the training set with augmented (synthesized) samples
+This practice introduces prior-based human knowledge into the data, instead of designing explicit penalty terms or modifying the optimization procedure. Hence, it is often classified as a type of **implicit regularization**.
   
 ![Implicit Policy Regularization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Implicit%20Policy%20Regularization.png)
   
