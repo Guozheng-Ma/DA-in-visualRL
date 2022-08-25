@@ -158,7 +158,7 @@ Hence, an intuitive idea is to decouple the training data flow:
 - using non-augmented or weak-augmented data for RL optimization
 - while using strong-augmented data for representation learning.
 
-![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/5e051b65601c6a6665e534cd6a9ea566ed5671d8/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
+![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/1c3a591b5a8448d7dc7786d5dbf65108fd2a466b/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
 
 | Related Studies |
 |--------|
