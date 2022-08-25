@@ -149,9 +149,14 @@ Multiple heads then propagate errors back to the shared network layers that form
 ### 2.3 Task-Specific Representation Decoupled from Policy Optimization
   
 
-> The fragility of RL poses a *dilemma*:
-> - aggressive augmentations are necessary for achieving good generalization in the visual domain, 
-> - while injecting heavy data augmentations into the optimization of RL objective may cause a deterioration in both the sample efficiency and the training stability.
+The fragility of RL poses a *dilemma*:
+- aggressive augmentations are necessary for achieving good generalization in the visual domain, 
+- while injecting heavy data augmentations into the optimization of RL objective may cause a deterioration in both the sample efficiency and the training stability.
+  
+Recent works argue that this is mainly due to the conflation of two objectives: policy optimization and robust representation learning.
+Hence, an intuitive idea is to decouple the training data flow: 
+- using non-augmented or weak-augmented data for RL optimization
+- while using strong-augmented data for representation learning.
 
 ![Task-Specific Representation Decoupled from Policy Optimization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/5e051b65601c6a6665e534cd6a9ea566ed5671d8/Image/Task-Specific%20Representation%20Decoupled%20from%20Policy%20Optimization.png)
 
