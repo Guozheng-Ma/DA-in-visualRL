@@ -92,7 +92,7 @@ The application scenarios where data augmentation plays a vital role can be divi
 - RL agents are trained with task-specific rewards in Case 1 and Case 2, where DA is implemented as an implicit regularization penalty when enlarging the training set.
 - However, the effect of implicit regularization is limited and many studies have attempted to design the auxiliary loss to exploit the potential of data augmentation.
 - There are also some studies aiming to decouple the representation learning from policy optimization to gain more generalizable policies.
-- Case 3 refers to exploring the environment without any task-specific rewards and DA can be exploited to learning the task-agnostic representation using unsupervised learning.
+- In Case 3, the environment is explored without any task-specific rewards, and DA can be exploited to learn the task-agnostic representation using unsupervised learning.
  
 ### 2.1 Implicit Policy Regularization
 
