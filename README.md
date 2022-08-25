@@ -118,6 +118,11 @@ This practice introduces prior-based human knowledge into the data, instead of d
 
 ### 2.2 Explicit Policy Regularization with Auxiliary Tasks
 
+To further facilitate the representation learning process, we can design auxiliary objectives (with DA) as explicit regularization.
+In general, an auxiliary task can be considered as an additional cost-function that the RL agent can predict and observe from the environment in a self-supervised fashion.
+
+For example, the last layer of the network can be split into multiple parts (heads), each working on a specific task.
+Multiple heads then propagate errors back to the shared network layers that form the complete representations required by all heads.
 
 ![Explicit Policy Regularization with Auxiliary Tasks](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Explicit%20Policy%20Regularization%20with%20Auxiliary%20Tasks.png)
 
