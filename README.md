@@ -60,8 +60,8 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 
 ### 1.2 Automatic Data Augmentation
   
-Automatic data augmentation is receiving growing attentions due to the demand of task-specific augmentation.
-Generally, different tasks benefit from different augmentations, and selecting the most appropriate one requires expert knowledge. Therefore, it is imperative to design a method that can automatically identify the most effective augmentation method.
+Automatic data augmentation is receiving growing attentions due to the demand of **task-specific augmentation**.
+Generally, different tasks benefit from different augmentations, and selecting the most appropriate one requires expert knowledge. Therefore, it is imperative to design a method that can **automatically identify the most effective augmentation method**.
 
 | Related Studies |
 |--------|
@@ -69,6 +69,11 @@ Generally, different tasks benefit from different augmentations, and selecting t
 |**[UCB-RAD]** Automatic Data Augmentation by Upper Confidence Bounds for Deep Reinforcement Learning **(ICCAS 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9649771)|
 
 ### 1.3 Context-aware/Semantic-level Data Augmentation
+
+Another deficiency of current data augmentation methods is that they rely on **pixel-level image transformations**, where each pixel is treated in a **context-agnostic** manner.
+However, in visual RL, pixels in the observation are likely to have different levels of relevance to decision making.
+This context-agnostic augmentation may mask or destroy the regions in the original observation that are vital for decision-making.
+Therefore, it is necessary to incorporate **context awareness** into augmentation.
 
 | Related Studies |
 |--------|
