@@ -85,8 +85,14 @@ Therefore, it is necessary to incorporate **context awareness** into augmentatio
 
 ## 2 How to Leverage the Augmented Data in Visual RL?
 
+The application scenarios where data augmentation plays a vital role can be divided into three cases:
 
 ![How to Leverage the Augmented Data](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/4ddbc7b7ccc30330db5436db0963fbb344943e73/Image/How%20to%20Leverage%20the%20Augmented%20Data.png)
+
+- RL agents are trained with task-specific rewards in Case 1 and Case 2, where DA is implemented as an implicit regularization penalty when enlarging the training set.
+- However, the effect of implicit regularization is limited and many studies have attempted to design the auxiliary loss to exploit the potential of data augmentation.
+- There are also some studies aiming to decouple the representation learning from policy optimization to gain more generalizable policies.
+- Case 3 refers to exploring the environment without any task-specific rewards and DA can be exploited to learning the task-agnostic representation using unsupervised learning.
  
 ### 2.1 Implicit Policy Regularization
 
