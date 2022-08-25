@@ -86,7 +86,7 @@ Therefore, it is necessary to incorporate **context awareness** into augmentatio
 ## 2 How to Leverage the Augmented Data in Visual RL?
 
 
-![How to Leverage the Augmented Data](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/3b999d19a778be2c115c8b709417cf906a2468f8/Image/How%20to%20Leverage%20the%20Augmented%20Data.png)
+![How to Leverage the Augmented Data](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/6ba073c00d822837d6a4aa95a015e0205d60dc5a/Image/How%20to%20Leverage%20the%20Augmented%20Data.png)
  
 ### 2.1 Implicit Policy Regularization
 
