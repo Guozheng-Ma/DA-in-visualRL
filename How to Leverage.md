@@ -55,6 +55,7 @@ Note that the contrastive representation is trained **jointly** with the RL algo
 Although maximizing the similarity between augmented versions of the same observation is valuable to state representation, maximizing the lower-bound of mutual information may inevitably retain some task-irrelevant information, limiting the generalization ability of agents. 
 
 To tackle this issue, DRIBO uses contrastive learning combined with a multi-view information bottleneck (MIB) auxiliary objective to learn representations that only contain taskrelevant information predictive of the future while eliminating task-irrelevant information.
+With the information bottleneck principle, DRIBO constructs a relaxed Lagrangian loss to obtain a sufficient representation with minimal task-irrelevant information.
 
 ![DRIBO](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/DRIBO.png)
 
