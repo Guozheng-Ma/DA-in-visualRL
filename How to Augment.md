@@ -28,7 +28,11 @@ After interpolating the observations by ${\tilde{s}=\lambda s_{i}+(1-\lambda) s_
 
 ### 1.3 Trajectory Augmentation
 
-> **Transition Augmentation and Trajectory Augmentation specifically consider the properties of RL to expand the scope of augmentation.**
+> **Transition and Trajectory Augmentation specifically consider the properties of RL to expand the scope of augmentation.**
+
+> :bookmark: **[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/2a38a4a9316c49e5a833517c45d31070-Abstract.html) [*(code)*](https://github.com/microsoft/Playvirtual) 
+> 
+> Since augmenting observations or transitions cannot directly enrich the trajectories experienced in training, to further improve the sample efficiency, PlayVirtual augments the actions to generate synthesized trajectories under the self-supervised cycle consistency constraint.
 
 ![PlayVirtual](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/4984287c86b50e0fe37479a0dffec1e0a6996786/Image/Playvirtual.png)
 
