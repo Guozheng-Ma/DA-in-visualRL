@@ -41,6 +41,9 @@ After interpolating the observations by ${\tilde{s}=\lambda s_{i}+(1-\lambda) s_
 
 ### 2.1 Introducing human guidance.
 
+> :bookmark: **[EXPAND]** Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/b6f8dc086b2d60c5856e4ff517060392-Abstract.html)
+> 
+> Human-in-the-loop reinforcement learning (HIRL) is a general paradigm to leverage human guidance to assist the RL process. EXPAND introduces human saliency map to mark the importance of different regions, and only perturbs the irrelevant regions. Saliency maps contain human domain knowledge, allowing context information to be embedded into the augmentation.
 
 ![EXPAND](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/059e52c7fd434a4043499a3925c22744c9de7753/Image/EXPAND.png)
 
@@ -48,6 +51,9 @@ After interpolating the observations by ${\tilde{s}=\lambda s_{i}+(1-\lambda) s_
 ### 2.2 Excavating the task-relevance.
 
 
+> :bookmark: **[TLDA]** Don’t Touch What Matters: Task-Aware Lipschitz Data Augmentation for Visual Reinforcement Learning **(IJCAI 2022)** [*(paper)*](https://arxiv.org/abs/2202.09982)
+> 
+> TLDA explicitly defines the task-relevance by computing the Lipschitz constants when perturbing the corresponding pixels. Regions with large Lipschitz constants indicate that they are crucial for the current task decision, which will subsequently be protected from augmentation.
 
 ![TLDA](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/27ee08c72d57c7b028b48fd7a977ff947cbd5622/Image/TLDA.png)
 
