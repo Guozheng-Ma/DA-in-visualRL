@@ -42,7 +42,8 @@ After interpolating the observations by ${\tilde{s}=\lambda s_{i}+(1-\lambda) s_
 ### 2.1 Introducing human guidance.
 
 
-![EXPAND](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/27ee08c72d57c7b028b48fd7a977ff947cbd5622/Image/EXPAND.png)
+![EXPAND](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/059e52c7fd434a4043499a3925c22744c9de7753/Image/EXPAND.png)
+
 
 ### 2.2 Excavating the task-relevance.
 
