@@ -32,9 +32,26 @@ J_{Q}^{\mathrm{SVEA}}(\theta) &= \alpha \sum_{i=1}^{N} ||Q_{\theta}(s_{i}, a_{i}
 \end{aligned}
 $$
 
-> The detailed discussion of :bookmark:**DrQ** and :bookmark:**SVEA** can be viewed in [our paper]().
+> The detailed discussion of :bookmark:**DrQ** and :bookmark:**SVEA** can be viewed in [our survey paper]().
 
 ## 2 Explicit Policy Regularization with Auxiliary Tasks
+
+
+
+### 2.1 Consistent-based Auxiliary Tasks
+
+
+
+### 2.2 Contrastive-based Auxiliary Tasks
+
+
+
+
+### 2.3 Predictive-based Auxiliary Tasks
+
+
+
+
 
 
 ## 3 Task-Specific Representation Decoupled from Policy Optimization
