@@ -37,3 +37,16 @@ After interpolating the observations by ${\tilde{s}=\lambda s_{i}+(1-\lambda) s_
 ![PlayVirtual](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/4984287c86b50e0fe37479a0dffec1e0a6996786/Image/Playvirtual.png)
 
 
+## 2 Context-aware/Semantic-level Data Augmentation
+
+### 2.1 Introducing human guidance.
+
+
+![EXPAND](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/27ee08c72d57c7b028b48fd7a977ff947cbd5622/Image/EXPAND.png)
+
+### 2.2 Excavating the task-relevance.
+
+
+
+![TLDA](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/27ee08c72d57c7b028b48fd7a977ff947cbd5622/Image/TLDA.png)
+
