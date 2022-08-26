@@ -22,6 +22,7 @@ RAD can be regarded as a specific form of DrQ with 𝐾 = 1 and 𝑀 = 1, which 
 > :bookmark: **[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/1e0f65eb20acbfb27ee05ddc000b50ec-Abstract.html) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)
 
 SVEA aims to enhance the stability of optimizing the RL objective with DA. It consists of two main components:
+![SVEA](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/8e5f915c20c1a7f20bb2b1b9fe4c77094b303601/Image/SVEA.png)
 - First, SVEA uses only unaugmented data copies to estimate 𝑄 -targets to avoid erroneous bootstrapping caused by data augmentation.
 - Second, SVEA formulates a modified 𝑄 -objective to estimate the 𝑄 -value over both augmented and unaugmented copies of the observations, which can be expressed in a modified ERM form as:
 
@@ -32,22 +33,23 @@ J_{Q}^{\mathrm{SVEA}}(\theta) &= \alpha \sum_{i=1}^{N} ||Q_{\theta}(s_{i}, a_{i}
 \end{aligned}
 $$
 
-> The detailed discussion of :bookmark:**DrQ** and :bookmark:**SVEA** can be viewed in [our survey paper]().
+> :bookmark:The detailed discussion of :bookmark:**DrQ** and :bookmark:**SVEA** can be viewed in [our survey paper]().
 
 ## 2 Explicit Policy Regularization with Auxiliary Tasks
 
 
 
-### 2.1 Consistent-based Auxiliary Tasks
+### 2.1 Contrastive-based Auxiliary Tasks
+
+> :bookmark: **[CURL]** Contrastive Unsupervised Representations for Reinforcement Learning **(ICML 2020)** [*(paper)*](http://proceedings.mlr.press/v119/laskin20a.html) [*(code)*](https://github.com/MishaLaskin/curl) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Leverage.md)
+
+CURL is the first general framework for combining multi-view contrastive learning and data augmentation in visual RL.
+It builds an auxiliary contrastive task to learn useful state representations by maximizing the mutual information between the different augmented views of the same observations to improve transformation invariance of the learned embedding. 
+
+Note that the contrastive representation is trained **jointly** with the RL algorithm, and the latent encode receives gradients from both the contrastive learning objective and the RL objective.
 
 
-
-### 2.2 Contrastive-based Auxiliary Tasks
-
-
-
-
-### 2.3 Predictive-based Auxiliary Tasks
+### 2.2 Predictive-based Auxiliary Tasks
 
 
 
