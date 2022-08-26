@@ -4,17 +4,14 @@
 
 ## 1 Implicit Policy Regularization
 
-The initial and naive practice of data augmentations is to expand the training set with augmented (synthesized) samples.
-This practice introduces prior-based human knowledge into the data, instead of designing explicit penalty terms or modifying the optimization procedure.
-Hence, it is often classified as a type of implicit regularization, formulated as the empirical risk minimization on augmented data (DA-ERM) in supervised learning tasks:
+In the visual RL community, :bookmark:**RAD** and :bookmark:**DrQ** first leverage classical image transformations such as Crop to augment the input observations as implicit regularization.
+
+DrQ suggests two distinct ways to regularize the Q-function.
+the optimization objective of DrQ can be rewritten as:
 
 $$
-\widehat{h}^{d a-e r m} \triangleq \underset{h \in \mathcal{H}}{\operatorname{argmin}} \sum_{i=1}^{N} l\left(h\left(\mathbf{x}_{i}\right), y_{i}\right)+\sum_{i=1}^{N} \sum_{j=1}^{\alpha} l\left(h\left(\mathbf{x}_{i, j}\right), y_{i}\right)
+J_{Q}^{\mathrm{DrQ}}(\theta) = \frac{1}{N M K} \sum_{i=1}^{N}\sum_{m=1}^{M}\sum_{k=1}^{K} l(f(s_{i}, \nu_{i, m}) ,a_i,r_i, f(s_{i}^{\prime}, \nu_{i, k}^{\prime}))
 $$
-
-In the visual RL community, RAD and DrQ first leverage classical image transformations such as Crop to augment the input observations as implicit regularization.
-
-> 
 
 ## 2 Explicit Policy Regularization with Auxiliary Tasks
 
