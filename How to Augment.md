@@ -20,3 +20,6 @@ To ensure the the validity of the augmented transition ${<s_t^{aug}, a_t, r_t, s
 Hence, local perturbation is inherently limited in increasing data diversity, which is a common issue of all observation augmentations.
 
 An intuitive solution is to apply interpolation among different data points instead of performing the local perturbation on each individual data point.
+
+
+![MixReg](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/1e7e46d23633f9379da91527f7509cd195008901/Image/Mixreg.png)
