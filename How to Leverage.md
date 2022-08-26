@@ -32,6 +32,8 @@ J_{Q}^{\mathrm{SVEA}}(\theta) &= \alpha \sum_{i=1}^{N} ||Q_{\theta}(s_{i}, a_{i}
 \end{aligned}
 $$
 
+> The detailed discussion of :bookmark:**DrQ** and :bookmark:**SVEA** can be viewed in [our paper]().
+
 ## 2 Explicit Policy Regularization with Auxiliary Tasks
 
 
