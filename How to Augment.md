@@ -18,8 +18,12 @@ A typical approach to observation augmentation is applying the classical image m
 Augmenting $s_t$ with fixed supervised signals (e.g., reward $r_t$ and action $a_t$) can be viewed as a kind of **local perturbation** of $s_t$.
 To ensure the the validity of the augmented transition ${<s_t^{aug}, a_t, r_t, s_{t+1}^{aug}>}$, the augmented observation $s_t^{aug}$ is only allowed to be in the vicinity of $s_t$.
 Hence, local perturbation is inherently limited in increasing data diversity, which is a common issue of all observation augmentations.
-
 An intuitive solution is to apply interpolation among different data points instead of performing the local perturbation on each individual data point.
 
+> :bookmark: **[MixReg]** Improving Generalization in Reinforcement Learning with Mixture Regularization **(NeurIPS 2020)** [*(paper)*](https://proceedings.neurips.cc/paper/2020/hash/5a751d6a0b6ef05cfe51b86e5d1458e6-Abstract.html) [*(code)*](https://github.com/kaixin96/mixreg) 
+>
+> MixReg~\cite{mixreg} convexly combines two observations and their supervised signals to generate augmented data.
+For example, let $y_i$ and $y_j$ denote the associated signals for states $s_i$ and $s_j$, which can be the reward or state values. 
+After interpolating the observations by $\tilde{s}=\lambda s_{i}+(1-\lambda) s_{j}$, MixReg introduces the mixture regularization in a similar manner by $\tilde{y}=\lambda y_{i}+(1-\lambda) y_{j}$, which helps learn more effective representations and smoother policies.
 
 ![MixReg](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/1e7e46d23633f9379da91527f7509cd195008901/Image/Mixreg.png)
