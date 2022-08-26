@@ -77,7 +77,7 @@ Therefore, it is necessary to incorporate **context awareness** into augmentatio
 
 | Related Studies |
 |--------|
-|**[EXPAND]** Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/b6f8dc086b2d60c5856e4ff517060392-Abstract.html)|
+|**[EXPAND]** Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/b6f8dc086b2d60c5856e4ff517060392-Abstract.html) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/780577cfbdbf3aba1e304ca81774cd5af6de857c/How%20to%20Augment.md)|
 |**[TLDA]** Don’t Touch What Matters: Task-Aware Lipschitz Data Augmentation for Visual Reinforcement Learning **(IJCAI 2022)** [*(paper)*](https://arxiv.org/abs/2202.09982) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/780577cfbdbf3aba1e304ca81774cd5af6de857c/How%20to%20Augment.md)|
 
 
