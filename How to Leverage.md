@@ -62,9 +62,14 @@ With the information bottleneck principle, DRIBO constructs a relaxed Lagrangian
 
 ### 2.2 Predictive-based Auxiliary Tasks
 
+The motivation of future prediction tasks is to encourage state representations to be predictive of future states given the current state and future action sequence.
+
 > :bookmark: **[SPR]** Data-Efficient Reinforcement Learning with Self-Predictive Representations **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=uCQfPZwRaUu&fbclid=IwAR3FMvlynXXYEMJaJzPki1x1wC9jjA3aBDC_moWxrI91hLaDvtk7nnnIXT8) [*(code)*](https://github.com/mila-iqia/spr)
 
+SPR produces state representations by minimizing the prediction error between the true future states and predicted future states using the explicit multi-step dynamics model.
+It also incorporates data augmentation into the future prediction task, which enforces the consistency across different views of each observation.
 
+Dynamics model (DM) h(·, ·) operates entirely in the latent space to predict the transition dynamics, and the prediction loss is computed by summing up the difference (error) between the predicted representations and observed representations.
 
 ![SPR](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/SPR.png)
 
