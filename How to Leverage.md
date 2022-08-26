@@ -33,7 +33,7 @@ J_{Q}^{\mathrm{SVEA}}(\theta) &= \alpha \sum_{i=1}^{N} ||Q_{\theta}(s_{i}, a_{i}
 \end{aligned}
 $$
 
-> :bookmark:The detailed discussion of :bookmark:**DrQ** and :bookmark:**SVEA** can be viewed in [our survey paper]().
+> The detailed discussion of :bookmark:**DrQ** and :bookmark:**SVEA** can be viewed in [our survey paper]().
 
 ## 2 Explicit Policy Regularization with Auxiliary Tasks
 
@@ -48,6 +48,13 @@ It builds an auxiliary contrastive task to learn useful state representations by
 
 Note that the contrastive representation is trained **jointly** with the RL algorithm, and the latent encode receives gradients from both the contrastive learning objective and the RL objective.
 
+![CURL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/CURL.png)
+
+> :bookmark: **[DRIBO]** DRIBO: Robust Deep Reinforcement Learning via Multi-View Information Bottleneck **(ICML 2022)** [*(paper)*](https://proceedings.mlr.press/v162/fan22b.html) [*(code)*](https://github.com/BU-DEPEND-Lab/DRIBO)
+
+Although maximizing the similarity between augmented versions of the same observation is valuable to state representation, maximizing the lower-bound of mutual information may inevitably retain some task-irrelevant information, limiting the generalization ability of agents. 
+
+To tackle this issue, DRIBO uses contrastive learning combined with a multi-view information bottleneck (MIB) auxiliary objective to learn representations that only contain taskrelevant information predictive of the future while eliminating task-irrelevant information.
 
 ### 2.2 Predictive-based Auxiliary Tasks
 
