@@ -19,6 +19,19 @@ $$
 
 RAD can be regarded as a specific form of DrQ with 𝐾 = 1 and 𝑀 = 1, which is a plug-and-play module that can be plugged into any reinforcement learning method without making any changes to the underlying algorithm.
 
+> :bookmark: **[SVEA]** Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/1e0f65eb20acbfb27ee05ddc000b50ec-Abstract.html) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)
+
+SVEA aims to enhance the stability of optimizing the RL objective with DA. It consists of two main components:
+- First, SVEA uses only unaugmented data copies to estimate 𝑄 -targets to avoid erroneous bootstrapping caused by data augmentation.
+- Second, SVEA formulates a modified 𝑄 -objective to estimate the 𝑄 -value over both augmented and unaugmented copies of the observations, which can be expressed in a modified ERM form as:
+
+$$
+\begin{aligned}
+J_{Q}^{\mathrm{SVEA}}(\theta) &= \alpha \sum_{i=1}^{N} ||Q_{\theta}(s_{i}, a_{i})-y_{i}||^{2} + \beta\sum_{i=1}^{N}\sum_{m=1}^{M}  ||Q_{\theta}(f(s_{i}, \nu_{i, m}), a_{i})-y_{i}||^{2} \\
+&= \alpha\sum_{i=1}^{N} l(s_{i},a_i,r_i, s_{i}^{\prime}) + \beta \sum_{i=1}^{N} \sum_{m=1}^{M} l(f(s_{i}, \nu_{i, m}) ,a_i,r_i, s_{i}^{\prime})
+\end{aligned}
+$$
+
 ## 2 Explicit Policy Regularization with Auxiliary Tasks
 
 
