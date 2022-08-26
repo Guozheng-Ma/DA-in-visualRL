@@ -15,6 +15,8 @@ A typical approach to observation augmentation is applying the classical image m
 
 ### 1.2 Transition Augmentation
 
-Augmenting $s_t$ with fixed supervised signals (e.g., reward $r_t$ and action $a_t$) can be viewed as a kind of local perturbation of $s_t$.
+Augmenting $s_t$ with fixed supervised signals (e.g., reward $r_t$ and action $a_t$) can be viewed as a kind of **local perturbation** of $s_t$.
 To ensure the the validity of the augmented transition ${<s_t^{aug}, a_t, r_t, s_{t+1}^{aug}>}$, the augmented observation $s_t^{aug}$ is only allowed to be in the vicinity of $s_t$.
 Hence, local perturbation is inherently limited in increasing data diversity, which is a common issue of all observation augmentations.
+
+An intuitive solution is to apply interpolation among different data points instead of performing the local perturbation on each individual data point.
