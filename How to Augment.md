@@ -28,8 +28,7 @@ After interpolating the observations by ${\tilde{s}=\lambda s_{i}+(1-\lambda) s_
 
 ### 1.3 Trajectory Augmentation
 
-
-
+> **Transition Augmentation and Trajectory Augmentation specifically consider the properties of RL to expand the scope of augmentation.**
 
 ![PlayVirtual](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/4984287c86b50e0fe37479a0dffec1e0a6996786/Image/Playvirtual.png)
 
