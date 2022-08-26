@@ -56,12 +56,16 @@ Although maximizing the similarity between augmented versions of the same observ
 
 To tackle this issue, DRIBO uses contrastive learning combined with a multi-view information bottleneck (MIB) auxiliary objective to learn representations that only contain taskrelevant information predictive of the future while eliminating task-irrelevant information.
 
+![DRIBO](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/DRIBO.png)
+
+
 ### 2.2 Predictive-based Auxiliary Tasks
 
+> :bookmark: **[SPR]** Data-Efficient Reinforcement Learning with Self-Predictive Representations **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=uCQfPZwRaUu&fbclid=IwAR3FMvlynXXYEMJaJzPki1x1wC9jjA3aBDC_moWxrI91hLaDvtk7nnnIXT8) [*(code)*](https://github.com/mila-iqia/spr)
 
 
 
-
+![SPR](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/SPR.png)
 
 ## 3 Task-Specific Representation Decoupled from Policy Optimization
 
