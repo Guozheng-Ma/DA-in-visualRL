@@ -75,8 +75,18 @@ Dynamics model (DM) h(·, ·) operates entirely in the latent space to predict t
 
 ## 3 Task-Specific Representation Decoupled from Policy Optimization
 
+![classfication](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/classfication.png)
+
+> :bookmark: **[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9561103) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)
 
 
 
+![SODA](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/SODA.png)
+
+> :bookmark: **[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies **(ICML 2021)** [*(paper)*](https://proceedings.mlr.press/v139/fan21c.html) [*(code)*](https://github.com/LinxiFan/SECANT)
+
+
+
+![SECANT](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/SECANT.png)
 
 ## 4 Task-Agnostic Representation using Unsupervised Learning
