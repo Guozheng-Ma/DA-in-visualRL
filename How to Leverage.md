@@ -105,17 +105,19 @@ The student optimizes the imitation objective by gradient descent on a supervise
 
 ## 4 Task-Agnostic Representation using Unsupervised Learning
 
+> **It can also be considered as a type of unsupervised pre-training.**
+
 The visual representations of standard end-to-end RL methods heavily rely on the task-specific reward, making them ineffective for other tasks.
 To overcome this limitation, the environment can be first explored in a **task-agnostic fashion** to learn its visual representations **without any task-specific rewards**, and specific downstream tasks can be subsequently solved efficiently.
 
-> It can also be considered as a type of unsupervised pre-training.
-
 > :bookmark: **[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul)
 
+**Augmented Temporal Contrast (ATC)** trains the CNN encoder with an unsupervised objective and then learns RL policies on top of the extracted features.
+The unsupervised objective is temporal contrast of an observation with one from a specified, near-future time step.
 
+> **NOTE:** In contrast to CURL, which maximizes information between views of the same observation, ATC maximizes information between observations separated by a short time interval.
 
 ![ATC](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/ATC.png)
-
 
 
 > :bookmark: **[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/yarats21a.html) [*(code)*](https://github.com/denisyarats/proto) 
