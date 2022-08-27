@@ -75,7 +75,17 @@ Dynamics model (DM) h(·, ·) operates entirely in the latent space to predict t
 
 ## 3 Task-Specific Representation Decoupled from Policy Optimization
 
+Since the training of RL is fragile to excessive data variations, a naive application of data augmentation may severely damage the training stability.
+This poses a dilemma: aggressive augmentations are necessary for achieving good generalization in the visual domain, while injecting heavy data augmentations into the optimization of RL objective may cause a deterioration in both the sample efficiency and the training stability.
+
+Recent works argue that this is mainly due to **the conflation of two objectives: policy optimization and robust representation learning**.
+Hence, an intuitive idea is to **decouple the training data flow: using non-augmented or weak-augmented data for RL optimization while using strongaugmented data for representation learning**.
+
 ![classfication](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/classfication.png)
+
+As shown in Figure above, there are two strategies to achieve the decoupling:
+1. Dividing the training data into two streams to **separately** optimize RL objective and repersentation learning objective; and the model’s parameters are iteratively updated by the two objectives.
+2. Optimizing the RL objective first and then leveraging DA for knowledge distillation **sequentially**.
 
 > :bookmark: **[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9561103) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)
 
