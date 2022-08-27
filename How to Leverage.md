@@ -105,6 +105,11 @@ The student optimizes the imitation objective by gradient descent on a supervise
 
 ## 4 Task-Agnostic Representation using Unsupervised Learning
 
+The visual representations of standard end-to-end RL methods heavily rely on the task-specific reward, making them ineffective for other tasks.
+To overcome this limitation, the environment can be first explored in a **task-agnostic fashion** to learn its visual representations **without any task-specific rewards**, and specific downstream tasks can be subsequently solved efficiently.
+
+> It can also be considered as a type of unsupervised pre-training.
+
 > :bookmark: **[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul)
 
 
