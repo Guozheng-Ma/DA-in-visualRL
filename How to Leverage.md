@@ -104,3 +104,5 @@ The student optimizes the imitation objective by gradient descent on a supervise
 ![SECANT](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/SECANT.png)
 
 ## 4 Task-Agnostic Representation using Unsupervised Learning
+
+> :bookmark: **[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul)
