@@ -89,13 +89,17 @@ As shown in Figure above, there are two strategies to achieve the decoupling:
 
 > :bookmark: **[SODA]** Generalization in Reinforcement Learning by Soft Data Augmentation **(ICRA 2021)** [*(paper)*](https://ieeexplore.ieee.org/abstract/document/9561103) [*(code)*](https://github.com/nicklashansen/dmcontrol-generalization-benchmark)
 
-
+SODA maximizes the mutual information between the latent representations of augmented and non-augmented data as the auxiliary objective, and continuously alternates between optimizing RL objective with non-augmented data and representation pbjective with augmented data.
+While the policy is learned only from non-augmented data, SODA still benefits substantially from data augmentation through representation learning.
 
 ![SODA](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/SODA.png)
 
 > :bookmark: **[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies **(ICML 2021)** [*(paper)*](https://proceedings.mlr.press/v139/fan21c.html) [*(code)*](https://github.com/LinxiFan/SECANT)
 
+SECANT first trains a sample-efficient expert with Random Crop (weak augmentation).
+In the second stage, a student network learns a generalizable policy by mimicking the behavior of the expert at every time step, but with a crucial difference: the expert computes the ground-truth actions from unmodified observations, while the student learns to predict the same actions from heavily corrupted observations.
 
+The student optimizes the imitation objective by gradient descent on a supervised regression loss, which has better training stability than the RL loss. Meanwhile, the policy distillation through strong augmentations can greatly remedy overfitting to acquire robust representation without sacrificing policy performance.
 
 ![SECANT](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/SECANT.png)
 
