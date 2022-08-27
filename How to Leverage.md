@@ -115,13 +115,17 @@ To overcome this limitation, the environment can be first explored in a **task-a
 **Augmented Temporal Contrast (ATC)** trains the CNN encoder with an unsupervised objective and then learns RL policies on top of the extracted features.
 The unsupervised objective is temporal contrast of an observation with one from a specified, near-future time step.
 
-> **NOTE:** In contrast to CURL, which maximizes information between views of the same observation, ATC maximizes information between observations separated by a short time interval.
+**NOTE:** In contrast to CURL, which maximizes information between views of the same observation, ATC maximizes information between observations separated by a short time interval.
 
 ![ATC](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/ATC.png)
 
 
 > :bookmark: **[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/yarats21a.html) [*(code)*](https://github.com/denisyarats/proto) 
 
+Proto-RL designs a self-supervised scheme that fits an encoder that embeds high-dimensional observations to lowdimensional latent states and defines an exploration strategy that allows for the discovery of diverse transitions.
+-  Learning is done by optimizing the (self-supervised) clustering assignment loss.
+-  To encourage exploration, prototypes are simultaneously used to compute an entropy-based intrinsic reward rˆt
+that is maximized by the exploration agent.
 
 ![Proto RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/Image/Proto%20RL.png)
 
