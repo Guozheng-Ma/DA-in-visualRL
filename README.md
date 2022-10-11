@@ -24,9 +24,9 @@ The Figure above shows **the generic workflow of leveraging DA in visual RL**: d
 >If this repository is useful to you, please consider citing our paper:
 >```
 >@article{,
->   title={},
->   author={},
->   journal={},
+>   title={A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning},
+>   author={Guozheng Ma, Zhen Wang, Zhecheng Yuan, Xueqian Wang, Bo Yuan, Dacheng Tao},
+>   journal={arXiv preprint arXiv:2210.04561},
 >   year={2022}
 >}
 >```
