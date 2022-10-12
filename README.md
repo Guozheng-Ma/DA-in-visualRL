@@ -4,18 +4,14 @@
 
 To tackle these obstacles, **data augmentation (DA)** has become a widely used technique in visual RL to acquire sample-efficient and generalizable policies by diversifying the training data.
 
-> This repository is based on the paper [**"A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning"**](), authored by Guozheng Ma, [Zhen Wang](https://zhenwang.site/), Zhecheng Yuan, [Xueqian Wang](https://scholar.google.com/citations?user=h9dN_ykAAAAJ&hl=zh-CN), [Bo Yuan](https://scholar.google.com/citations?hl=zh-CN&user=FMiooBoAAAAJ) and [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
+![DA in visual RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c6057fb0b4c6461e2c122c60403aab21479b689e/Image/DA%20in%20visual%20RL.png)
+
+> This repository is based on the paper [**"A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning"**](https://arxiv.org/abs/2210.04561), authored by Guozheng Ma, [Zhen Wang](https://zhenwang.site/), Zhecheng Yuan, [Xueqian Wang](https://scholar.google.com/citations?user=h9dN_ykAAAAJ&hl=zh-CN), [Bo Yuan](https://scholar.google.com/citations?hl=zh-CN&user=FMiooBoAAAAJ) and [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
 > 
-> In this repository, we conduct a systematic review of the previous work, focusing on how to obtain and leverage the augmented data in visual RL.
+> In this repository, we conduct a systematic review of the previous work, focusing on [:one: **How to Augment the Data**](#1) and [:two: **How to Leverage the Augmented Data**](#2) in visual RL.
 > Also, we present a collection of existing papers on leveraging DA in visual RL scenarios.
 > **The list of related paper will be continuously updated**.
 > Welcome to follow this repo! :balloon:
-> 
->>**Feel free to skip to the section you're interested in.**
->>
->>[:one: **How to Augment the Data in Visual RL?**](#1)
->>
->>[:two: **How to Leverage the Augmented Data in Visual RL?**](#2)
 >
 >If this repository is useful to you, please consider citing our paper:
 >```
@@ -26,8 +22,6 @@ To tackle these obstacles, **data augmentation (DA)** has become a widely used t
 >   year={2022}
 >}
 >```
-
-![DA in visual RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c6057fb0b4c6461e2c122c60403aab21479b689e/Image/DA%20in%20visual%20RL.png)
 
 <div id="1" >
 
