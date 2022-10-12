@@ -8,10 +8,12 @@ To tackle these obstacles, **data augmentation (DA)** has become a widely used t
 
 > This repository is based on the paper [**"A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning"**](https://arxiv.org/abs/2210.04561), authored by Guozheng Ma, [Zhen Wang](https://zhenwang.site/), Zhecheng Yuan, [Xueqian Wang](https://scholar.google.com/citations?user=h9dN_ykAAAAJ&hl=zh-CN), [Bo Yuan](https://scholar.google.com/citations?hl=zh-CN&user=FMiooBoAAAAJ) and [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
 > 
-> In this repository, we conduct a systematic review of the previous work, focusing on [:one: **How to Augment the Data**](#1) and [:two: **How to Leverage the Augmented Data**](#2) in visual RL.
-> Also, we present a collection of existing papers on leveraging DA in visual RL scenarios.
+> In this repository, we conduct a systematic collection of existing papers, focusing on [:one: **How to Augment the Data**](#1) and [:two: **How to Leverage the Augmented Data**](#2) in visual RL.
+> 
+> You can click the button of :bookmark: to jump to the details of corresponding paper!
+>
 > **The list of related paper will be continuously updated**.
-> Welcome to follow this repo! :balloon:
+> Welcome to follow this repo! :star:
 >
 >If this repository is useful to you, please consider citing our paper:
 >```
