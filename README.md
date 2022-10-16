@@ -137,6 +137,7 @@ Multiple heads then propagate errors back to the shared network layers that form
 |**[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2201.12096)|
 |**[VCD]** Accelerating Representation Learning with View-Consistent Dynamics in Data-Efficient Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2201.07016)|
 |Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels? **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2206.05266)|
+|**[A2LS]** Reinforcement Learning with Automated Auxiliary Loss Search **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2210.06041) [*(code)*](https://seqml.github.io/a2ls/)|
  
 ----
   
