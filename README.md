@@ -174,8 +174,8 @@ To overcome this limitation, the environment can be first explored in a **task-a
 |--------|
 |**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Leverage.md)|
 |**[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/yarats21a.html) [*(code)*](https://github.com/denisyarats/proto) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Leverage.md)|
-|**[SGI]** Pretraining Representations for Data-Efficient Reinforcement Learning **(NIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/69eba34671b3ef1ef38ee85caae6b2a1-Abstract.html) [*(code)*](https://github.com/mila-iqia/SGI)|
-|**[CIC]** Reinforcement Learning with Prototypical Representations **(ArXiv 2022)** [*(paper)*](https://arxiv.org/abs/2202.00161) [*(code)*](https://github.com/rll-research/cic)|
+|**[SGI]** Pretraining Representations for Data-Efficient Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/69eba34671b3ef1ef38ee85caae6b2a1-Abstract.html) [*(code)*](https://github.com/mila-iqia/SGI)|
+|**[CIC]** Reinforcement Learning with Prototypical Representations **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2202.00161) [*(code)*](https://github.com/rll-research/cic)|
 
 ----
 
