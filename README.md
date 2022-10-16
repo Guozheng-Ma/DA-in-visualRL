@@ -136,7 +136,7 @@ Multiple heads then propagate errors back to the shared network layers that form
 |**[InDA, ExDA]** Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2102.08581)|
 |**[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2201.12096)|
 |**[VCD]** Accelerating Representation Learning with View-Consistent Dynamics in Data-Efficient Reinforcement Learning **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2201.07016)|
-|Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels? **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2206.05266)|
+|Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels? **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2206.05266)|
  
 ----
   
@@ -175,7 +175,7 @@ To overcome this limitation, the environment can be first explored in a **task-a
 |**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Leverage.md)|
 |**[Proto-RL]** Reinforcement Learning with Prototypical Representations **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/yarats21a.html) [*(code)*](https://github.com/denisyarats/proto) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Leverage.md)|
 |**[SGI]** Pretraining Representations for Data-Efficient Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/69eba34671b3ef1ef38ee85caae6b2a1-Abstract.html) [*(code)*](https://github.com/mila-iqia/SGI)|
-|**[CIC]** CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2202.00161) [*(code)*](https://github.com/rll-research/cic)|
+|**[CIC]** CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2202.00161) [*(code)*](https://github.com/rll-research/cic)|
 
 ----
 
