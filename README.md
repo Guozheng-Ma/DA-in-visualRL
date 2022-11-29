@@ -137,7 +137,7 @@ Multiple heads then propagate errors back to the shared network layers that form
 |Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels? **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2206.05266)|
 |**[InDA, ExDA]** Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2102.08581) [*(code)*](https://github.com/kbc-6723/es-da)|
 |**[A2LS]** Reinforcement Learning with Automated Auxiliary Loss Search **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2210.06041) [*(code)*](https://seqml.github.io/a2ls/)|
-|**[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2201.12096)|[*(code)*](https://github.com/microsoft/Mask-based-Latent-Reconstruction)
+|**[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2201.12096) [*(code)*](https://github.com/microsoft/Mask-based-Latent-Reconstruction)|
  
 ----
   
