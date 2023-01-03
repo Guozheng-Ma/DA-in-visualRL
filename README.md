@@ -48,6 +48,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |**[MixStyle]** Domain Generalization with MixStyle **(ICLR 2021)** [*(paper)*](https://openreview.net/forum?id=6xHJ37MVxxp) [*(code)*](https://github.com/KaiyangZhou/mixstyle-release)|
 |**[PlayVirtual]** Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning **(NeurIPS 2021)** [*(paper)*](https://proceedings.neurips.cc/paper/2021/hash/2a38a4a9316c49e5a833517c45d31070-Abstract.html) [*(code)*](https://github.com/microsoft/Playvirtual) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Augment.md)|
 |**[CLOP]** Local Feature Swapping for Generalization in Reinforcement Learning **(ICLR 2022)** [*(paper)*](https://openreview.net/forum?id=Sq0-tgDyHe4)|
+|**[SRM]** Spectrum Random Masking for Generalization in Image-based Reinforcement Learning **(NeurIPS 2022)** [*(paper)*](https://openreview.net/forum?id=m16lH6XJsbb)|
 
 > Detailed introduction and analysis of the representative studies can be viewed by clicking its :bookmark:.
 
