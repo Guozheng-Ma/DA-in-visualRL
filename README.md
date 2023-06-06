@@ -1,4 +1,4 @@
-# Awesome Data Augmentation in Visual Reinforcement Learning
+# Awesome Data Augmentation in Visual RL
 
 **Visual reinforcement learning (RL)** that makes decisions directly from high-dimensional visual inputs has demonstrated significant potential in various domains. However, deploying visual RL techniques to the real world remains challenging due to their **low sample efficiency** and **large generalization gap**. 
 
