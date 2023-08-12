@@ -50,7 +50,7 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |**[CLOP]** Local Feature Swapping for Generalization in Reinforcement Learning **(ICLR 2022)** [*(paper)*](https://openreview.net/forum?id=Sq0-tgDyHe4)|
 |**[SRM]** Spectrum Random Masking for Generalization in Image-based Reinforcement Learning **(NeurIPS 2022)** [*(paper)*](https://openreview.net/forum?id=m16lH6XJsbb)[*(code)*](https://github.com/Yara-HYR/SRM)|
 |**[CoIT]** On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning **(ICLR 2023)** [*(paper)*](https://openreview.net/forum?id=-nm-rHXi5ga) [*(code)*](https://github.com/Kamituna/CoIT)|
-|**[CG2A]** Improving Generalization in Visual Reinforcement Learning via Conflict-aware Gradient Agreement Augmentation **(ArXiv 2023)** [*(paper)*](https://arxiv.org/abs/2308.01194)|
+|**[CG2A]** Improving Generalization in Visual Reinforcement Learning via Conflict-aware Gradient Agreement Augmentation **(ICCV 2023)** [*(paper)*](https://arxiv.org/abs/2308.01194)|
 
 > Detailed introduction and analysis of the representative studies can be viewed by clicking its :bookmark:.
 
