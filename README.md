@@ -1,4 +1,21 @@
-# Awesome Data Augmentation in Visual RL
+<p align="center">
+
+  <h1 align="center">Awesome Data Augmentation in Visual RL</h1>
+  <p align="center">
+    <a><strong>Guozheng Ma</strong></a>
+    ·
+    <a><strong>Zhen Wang</strong></a>
+    ·
+    <a><strong>Zhecheng Yuan</strong></a>
+    ·
+    <a><strong>Xueqian Wang</strong></a>
+    ·
+    <a><strong>Bo Yuan</strong></a>
+    ·
+    <a><strong>Dacheng Tao</strong></a>
+  </p>
+
+</p>
 
 **Visual reinforcement learning (RL)** that makes decisions directly from high-dimensional visual inputs has demonstrated significant potential in various domains. However, deploying visual RL techniques to the real world remains challenging due to their **low sample efficiency** and **large generalization gap**. 
 
