@@ -23,7 +23,7 @@ To tackle these obstacles, **data augmentation (DA)** has become a widely used t
 
 ![DA in visual RL](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/c6057fb0b4c6461e2c122c60403aab21479b689e/Image/DA%20in%20visual%20RL.png)
 
-> This repository is based on the paper [**"A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning"**](https://arxiv.org/abs/2210.04561), authored by Guozheng Ma, [Zhen Wang](https://zhenwang.site/), Zhecheng Yuan, [Xueqian Wang](https://scholar.google.com/citations?user=h9dN_ykAAAAJ&hl=zh-CN), [Bo Yuan](https://scholar.google.com/citations?hl=zh-CN&user=FMiooBoAAAAJ) and [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
+> This repository is based on the paper [**"A Comprehensive Survey of Data Augmentation in Visual Reinforcement Learning"**](https://arxiv.org/abs/2210.04561), authored by [**Guozheng Ma**](https://scholar.google.com/citations?user=jDvVglUAAAAJ&hl=en&oi=ao), [Zhen Wang](https://zhenwang.site/), [Zhecheng Yuan](https://gemcollector.github.io/), [Xueqian Wang](https://scholar.google.com/citations?user=h9dN_ykAAAAJ&hl=zh-CN), [Bo Yuan](https://scholar.google.com/citations?hl=zh-CN&user=FMiooBoAAAAJ) and [Dacheng Tao](https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
 > 
 > In this repository, we conduct a systematic collection of existing papers, focusing on [:one: **How to Augment the Data**](#1) and [:two: **How to Leverage the Augmented Data**](#2) in visual RL.
 > 
