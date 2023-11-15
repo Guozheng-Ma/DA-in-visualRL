@@ -45,9 +45,9 @@ To tackle these obstacles, **data augmentation (DA)** has become a widely used t
 <div id="1" >
 
 ## 1 How to Augment the Data in Visual RL? 
-  
+
 The aim of data augmentation (DA) is to increase the amount and diversity of the original training data, so that agents can learn more efficient and robust policies. Thus, a primary focus of previous research is to design effective augmentation approaches.
-  
+
 ### 1.1 Observation Augmentation, Transition Augmentation and Trajectory Augmentation
 
 Depending on the type of data that the DA technique aims to modify, we divide DA in visual RL into **Observation Augmentation**, **Transition Augmentation** and **Trajectory Augmentation**.
@@ -68,12 +68,12 @@ Depending on the type of data that the DA technique aims to modify, we divide DA
 |**[SRM]** Spectrum Random Masking for Generalization in Image-based Reinforcement Learning **(NeurIPS 2022)** [*(paper)*](https://openreview.net/forum?id=m16lH6XJsbb)[*(code)*](https://github.com/Yara-HYR/SRM)|
 |**[CoIT]** On the Data-Efficiency with Contrastive Image Transformation in Reinforcement Learning **(ICLR 2023)** [*(paper)*](https://openreview.net/forum?id=-nm-rHXi5ga) [*(code)*](https://github.com/Kamituna/CoIT)|
 |**[CG2A]** Improving Generalization in Visual Reinforcement Learning via Conflict-aware Gradient Agreement Augmentation **(ICCV 2023)** [*(paper)*](https://arxiv.org/abs/2308.01194)|
-|**[HAVE]** Hierarchical Adaptive Value Estimation for Multi-modal Visual Reinforcement Learning **(NeurIPS 2023)** [*(paper)*](https://nips.cc/virtual/2023/poster/70701)|
+|**[HAVE]** Hierarchical Adaptive Value Estimation for Multi-modal Visual Reinforcement Learning **(NeurIPS 2023)** [*(paper)*](https://nips.cc/virtual/2023/poster/70701) ** [*(code)*](https://github.com/Yara-HYR/HAVE)|
 
 > Detailed introduction and analysis of the representative studies can be viewed by clicking its :bookmark:.
 
 ### 1.2 Automatic Data Augmentation
-  
+
 Automatic data augmentation is receiving growing attentions due to the demand of **task-specific augmentation**.
 Generally, different tasks benefit from different augmentations, and selecting the most appropriate one requires expert knowledge. Therefore, it is imperative to design a method that can **automatically identify the most effective augmentation method**.
 
@@ -107,9 +107,9 @@ The application scenarios where data augmentation plays a vital role can be divi
 - However, the effect of implicit regularization is limited and many studies have attempted to design the auxiliary loss to exploit the potential of data augmentation.
 - There are also some studies aiming to decouple the representation learning from policy optimization to gain more generalizable policies.
 - In Case 3, the environment is explored without any task-specific rewards, and DA can be exploited to learn the task-agnostic representation using unsupervised learning.
- 
+
 ### 2.1 Implicit Policy Regularization
-  
+
 > The definition of implicit and explicit regularization in [:bookmark_tabs:WIKIPEDIA](https://en.wikipedia.org/wiki/Regularization_(mathematics))
 >
 >> **Explicit regularization** is regularization whenever one explicitly adds a term to the optimization problem. These terms could be priors, penalties, or constraints.
@@ -118,9 +118,9 @@ The application scenarios where data augmentation plays a vital role can be divi
 
 The initial and naive practice of DA is to expand the training set with augmented (synthesized) samples
 This practice introduces prior-based human knowledge into the data, instead of designing explicit penalty terms or modifying the optimization procedure. Hence, it is often classified as a type of **implicit regularization**.
-  
+
 ![Implicit Policy Regularization](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Implicit%20Policy%20Regularization.png)
-  
+
 | Related Studies |
 |--------|
 |**[RAD]** Reinforcement Learning with Augmented Data **(NeurIPS 2020)** [*(paper)*](https://proceedings.neurips.cc/paper/2020/hash/e615c82aba461681ade82da2da38004a-Abstract.html) [*(code)*](https://github.com/MishaLaskin/rad) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Leverage.md)|
@@ -159,16 +159,17 @@ Multiple heads then propagate errors back to the shared network layers that form
 |**[InDA, ExDA]** Efficient Scheduling of Data Augmentation for Deep Reinforcement Learning **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2102.08581) [*(code)*](https://github.com/kbc-6723/es-da)|
 |**[A2LS]** Reinforcement Learning with Automated Auxiliary Loss Search **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2210.06041) [*(code)*](https://seqml.github.io/a2ls/)|
 |**[MLR]** Mask-based Latent Reconstruction for Reinforcement Learning **(NeurIPS 2022)** [*(paper)*](https://arxiv.org/abs/2201.12096)|
- 
+
 ----
-  
+
 ### 2.3 Task-Specific Representation Decoupled from Policy Optimization
-  
+
 
 The fragility of RL poses a *dilemma*:
 - aggressive augmentations are necessary for achieving good generalization in the visual domain, 
 - while injecting heavy data augmentations into the optimization of RL objective may cause a deterioration in both the sample efficiency and the training stability.
   
+
 Recent works argue that this is mainly due to the conflation of two objectives: policy optimization and robust representation learning.
 Hence, an intuitive idea is to decouple the training data flow: 
 - using non-augmented or weak-augmented data for RL optimization
@@ -182,16 +183,16 @@ Hence, an intuitive idea is to decouple the training data flow:
 |**[SECANT]** Self-Expert Cloning for Zero-Shot Generalization of Visual Policies **(ICML 2021)** [*(paper)*](https://proceedings.mlr.press/v139/fan21c.html) [*(code)*](https://github.com/LinxiFan/SECANT) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Leverage.md)|
 
 ----
-  
+
 ### 2.4 Task-Agnostic Representation using Unsupervised Learning
-  
+
 The visual representations of standard end-to-end RL methods heavily rely on the task-specific reward, making them ineffective for other tasks.
 To overcome this limitation, the environment can be first explored in a **task-agnostic fashion** to learn its visual representations **without any task-specific rewards**, and specific downstream tasks can be subsequently solved efficiently.
-  
+
 **DA is exploited as a  key part of unsupervised presentation learning.**
 
 ![Task-Agnostic Representation using Unsupervised Learning](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/f516f033684dc7a9b353f3779a15271c232581e7/Image/Task-Agnostic%20Representation%20using%20Unsupervised%20Learning.png)
-  
+
 | Related Studies |
 |--------|
 |**[ATC]** Decoupling Representation Learning from Reinforcement Learning **(ICML 2021)** [*(paper)*](http://proceedings.mlr.press/v139/stooke21a.html) [*(code)*](https://github.com/astooke/rlpyt/tree/master/rlpyt/ul) [:bookmark:](https://github.com/Guozheng-Ma/DA-in-visualRL/blob/main/How%20to%20Leverage.md)|
@@ -200,7 +201,6 @@ To overcome this limitation, the environment can be first explored in a **task-a
 |**[CIC]** CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery **(arxiv 2022)** [*(paper)*](https://arxiv.org/abs/2202.00161) [*(code)*](https://github.com/rll-research/cic)|
 
 ----
-
 
 
 
